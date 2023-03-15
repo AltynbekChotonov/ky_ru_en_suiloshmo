@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Atoochtor extends StatelessWidget {
-  Widget build(BuildContext inContext) {
+  const Atoochtor({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
           centerTitle: true,
           systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
             statusBarColor: const Color(0xff751E85),
           ),
           elevation: 10.0,
-          shadowColor: Color.fromARGB(255, 255, 255, 255),
-          backgroundColor: Color.fromARGB(255, 255, 98, 0),
+          shadowColor: const Color.fromARGB(255, 255, 255, 255),
+          backgroundColor: const Color.fromARGB(255, 255, 98, 0),
           title: const Text(
             'Ат атооч / Сан атооч',
             style: TextStyle(
@@ -25,7 +27,7 @@ class Atoochtor extends StatelessWidget {
           bottom: PreferredSize(
             preferredSize: const Size.fromHeight(1.0),
             child: Container(
-              color: Color.fromARGB(255, 255, 255, 255),
+              color: const Color.fromARGB(255, 255, 255, 255),
               height: 2,
             ),
           ),
@@ -35,14 +37,14 @@ class Atoochtor extends StatelessWidget {
             child: Column(children: [
               Container(height: 10),
               Column(children: [
-                Text(
+                const Text(
                   " АТ АТООЧ ",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
 
                 const SizedBox(height: 3),
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 2, color: Colors.black),
                       bottom: BorderSide(width: 2, color: Colors.black),
@@ -51,7 +53,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -59,7 +61,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -72,7 +74,7 @@ class Atoochtor extends StatelessWidget {
                       ])
                     ]),
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 0, color: Colors.black),
                       bottom: BorderSide(width: 1, color: Colors.black),
@@ -81,7 +83,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -89,7 +91,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -102,7 +104,7 @@ class Atoochtor extends StatelessWidget {
                       ])
                     ]),
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 0, color: Colors.black),
                       bottom: BorderSide(width: 1, color: Colors.black),
@@ -111,7 +113,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -119,7 +121,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -132,7 +134,7 @@ class Atoochtor extends StatelessWidget {
                       ])
                     ]),
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 0, color: Colors.black),
                       bottom: BorderSide(width: 1, color: Colors.black),
@@ -141,7 +143,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -149,7 +151,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -162,7 +164,7 @@ class Atoochtor extends StatelessWidget {
                       ])
                     ]),
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 0, color: Colors.black),
                       bottom: BorderSide(width: 1, color: Colors.black),
@@ -171,7 +173,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -179,7 +181,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -192,7 +194,7 @@ class Atoochtor extends StatelessWidget {
                       ])
                     ]),
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 0, color: Colors.black),
                       bottom: BorderSide(width: 1, color: Colors.black),
@@ -201,7 +203,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -209,7 +211,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -224,7 +226,7 @@ class Atoochtor extends StatelessWidget {
                 //////////////////////////////////////
                 //////////////////////////////////////
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 1, color: Colors.black),
                       bottom: BorderSide(width: 2, color: Colors.black),
@@ -233,7 +235,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -241,7 +243,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -254,7 +256,7 @@ class Atoochtor extends StatelessWidget {
                       ])
                     ]),
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 0, color: Colors.black),
                       bottom: BorderSide(width: 1, color: Colors.black),
@@ -263,7 +265,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -271,7 +273,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -284,7 +286,7 @@ class Atoochtor extends StatelessWidget {
                       ])
                     ]),
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 0, color: Colors.black),
                       bottom: BorderSide(width: 1, color: Colors.black),
@@ -293,7 +295,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -301,7 +303,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -314,7 +316,7 @@ class Atoochtor extends StatelessWidget {
                       ])
                     ]),
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 0, color: Colors.black),
                       bottom: BorderSide(width: 1, color: Colors.black),
@@ -323,7 +325,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -331,7 +333,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -344,7 +346,7 @@ class Atoochtor extends StatelessWidget {
                       ])
                     ]),
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 0, color: Colors.black),
                       bottom: BorderSide(width: 1, color: Colors.black),
@@ -353,7 +355,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -361,7 +363,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -374,7 +376,7 @@ class Atoochtor extends StatelessWidget {
                       ])
                     ]),
                 Table(
-                    border: TableBorder(
+                    border: const TableBorder(
                       verticalInside: BorderSide(width: 2, color: Colors.black),
                       top: BorderSide(width: 0, color: Colors.black),
                       bottom: BorderSide(width: 1, color: Colors.black),
@@ -383,7 +385,7 @@ class Atoochtor extends StatelessWidget {
                     ),
                     children: [
                       TableRow(children: [
-                        Center(
+                        const Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -391,7 +393,7 @@ class Atoochtor extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: [
+                          children: const [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -407,14 +409,14 @@ class Atoochtor extends StatelessWidget {
                 //////////////////////////////////////
                 const SizedBox(height: 30),
                 Column(children: [
-                  Text(
+                  const Text(
                     " ТАКТООЧ ",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
 
                   const SizedBox(height: 3),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 2, color: Colors.black),
@@ -424,7 +426,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -432,7 +434,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -445,7 +447,7 @@ class Atoochtor extends StatelessWidget {
                         ])
                       ]),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 0, color: Colors.black),
@@ -455,7 +457,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -463,7 +465,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -476,7 +478,7 @@ class Atoochtor extends StatelessWidget {
                         ])
                       ]),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 0, color: Colors.black),
@@ -486,7 +488,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -494,7 +496,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -507,7 +509,7 @@ class Atoochtor extends StatelessWidget {
                         ])
                       ]),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 0, color: Colors.black),
@@ -517,7 +519,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -525,7 +527,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -538,7 +540,7 @@ class Atoochtor extends StatelessWidget {
                         ])
                       ]),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 0, color: Colors.black),
@@ -548,7 +550,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -556,7 +558,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -569,7 +571,7 @@ class Atoochtor extends StatelessWidget {
                         ])
                       ]),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 1, color: Colors.black),
@@ -579,7 +581,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -587,7 +589,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -600,7 +602,7 @@ class Atoochtor extends StatelessWidget {
                         ]),
                       ]),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 1, color: Colors.black),
@@ -610,7 +612,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -618,7 +620,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -631,7 +633,7 @@ class Atoochtor extends StatelessWidget {
                         ])
                       ]),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 0, color: Colors.black),
@@ -641,7 +643,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -649,7 +651,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -662,7 +664,7 @@ class Atoochtor extends StatelessWidget {
                         ])
                       ]),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 0, color: Colors.black),
@@ -672,7 +674,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -680,7 +682,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -693,7 +695,7 @@ class Atoochtor extends StatelessWidget {
                         ])
                       ]),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 0, color: Colors.black),
@@ -703,7 +705,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -711,7 +713,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -724,7 +726,7 @@ class Atoochtor extends StatelessWidget {
                         ])
                       ]),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 0, color: Colors.black),
@@ -734,7 +736,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -742,7 +744,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -755,7 +757,7 @@ class Atoochtor extends StatelessWidget {
                         ])
                       ]),
                   Table(
-                      border: TableBorder(
+                      border: const TableBorder(
                         verticalInside:
                             BorderSide(width: 2, color: Colors.black),
                         top: BorderSide(width: 1, color: Colors.black),
@@ -765,7 +767,7 @@ class Atoochtor extends StatelessWidget {
                       ),
                       children: [
                         TableRow(children: [
-                          Center(
+                          const Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -773,7 +775,7 @@ class Atoochtor extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: [
+                            children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -792,14 +794,14 @@ class Atoochtor extends StatelessWidget {
                   const SizedBox(height: 30),
 
                   Column(children: [
-                    Text(
+                    const Text(
                       " САН АТООЧ ",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                     ),
                     const SizedBox(height: 3),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -809,7 +811,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -817,7 +819,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -830,7 +832,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 1, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -840,7 +842,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -848,7 +850,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -861,7 +863,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -871,7 +873,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -879,7 +881,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -892,7 +894,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -902,7 +904,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -910,7 +912,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -923,7 +925,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -933,7 +935,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -941,7 +943,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -954,7 +956,7 @@ class Atoochtor extends StatelessWidget {
                           ]),
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -964,14 +966,14 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       "беш \n пять ",
                                       style: TextStyle(fontSize: 15),
                                     ))),
-                            Column(children: [
+                            Column(children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -988,7 +990,7 @@ class Atoochtor extends StatelessWidget {
                     //ар бир катар тексттер 7 бөлүктөн турат
 
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -998,7 +1000,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1006,7 +1008,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1019,7 +1021,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -1029,7 +1031,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1037,7 +1039,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1050,7 +1052,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -1060,7 +1062,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1068,7 +1070,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1081,7 +1083,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -1091,7 +1093,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1099,7 +1101,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1112,7 +1114,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -1122,7 +1124,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1130,7 +1132,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1143,7 +1145,7 @@ class Atoochtor extends StatelessWidget {
                           ]),
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -1153,14 +1155,14 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       "он бир \n одиннадцать ",
                                       style: TextStyle(fontSize: 15),
                                     ))),
-                            Column(children: [
+                            Column(children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -1176,7 +1178,7 @@ class Atoochtor extends StatelessWidget {
                     //ар бир катар тексттер 7 бөлүктөн турат
 
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -1186,7 +1188,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1194,7 +1196,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1207,7 +1209,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 1, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -1217,7 +1219,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1225,7 +1227,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1238,7 +1240,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -1248,7 +1250,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1256,7 +1258,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1269,7 +1271,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -1279,7 +1281,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1287,7 +1289,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1300,7 +1302,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -1310,7 +1312,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1318,7 +1320,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1331,7 +1333,7 @@ class Atoochtor extends StatelessWidget {
                           ]),
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -1341,14 +1343,14 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       "жүз жыйырма \n сто двадцать ",
                                       style: TextStyle(fontSize: 15),
                                     ))),
-                            Column(children: [
+                            Column(children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -1365,7 +1367,7 @@ class Atoochtor extends StatelessWidget {
                     //ар бир катар тексттер 7 бөлүктөн турат
 
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -1375,7 +1377,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1383,7 +1385,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1396,7 +1398,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -1406,7 +1408,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1414,7 +1416,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1427,7 +1429,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 1, color: Colors.black),
@@ -1437,7 +1439,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1445,7 +1447,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1458,7 +1460,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -1468,7 +1470,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1476,7 +1478,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1489,7 +1491,7 @@ class Atoochtor extends StatelessWidget {
                           ])
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -1499,7 +1501,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1507,7 +1509,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1520,7 +1522,7 @@ class Atoochtor extends StatelessWidget {
                           ]),
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -1530,14 +1532,14 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       "биринчи \n первый ",
                                       style: TextStyle(fontSize: 15),
                                     ))),
-                            Column(children: [
+                            Column(children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -1549,7 +1551,7 @@ class Atoochtor extends StatelessWidget {
                           ]),
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -1559,7 +1561,7 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
@@ -1567,7 +1569,7 @@ class Atoochtor extends StatelessWidget {
                                       style: TextStyle(fontSize: 15),
                                     ))),
                             Column(
-                              children: [
+                              children: const [
                                 Center(
                                     child: Padding(
                                         padding: EdgeInsets.all(10),
@@ -1580,7 +1582,7 @@ class Atoochtor extends StatelessWidget {
                           ]),
                         ]),
                     Table(
-                        border: TableBorder(
+                        border: const TableBorder(
                           verticalInside:
                               BorderSide(width: 2, color: Colors.black),
                           top: BorderSide(width: 0, color: Colors.black),
@@ -1590,14 +1592,14 @@ class Atoochtor extends StatelessWidget {
                         ),
                         children: [
                           TableRow(children: [
-                            Center(
+                            const Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       "үчүнчү \n третий ",
                                       style: TextStyle(fontSize: 15),
                                     ))),
-                            Column(children: [
+                            Column(children: const [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),

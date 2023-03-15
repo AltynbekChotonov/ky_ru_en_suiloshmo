@@ -3,17 +3,20 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Meimankana extends StatelessWidget {
-  Widget build(BuildContext inContext) {
+  const Meimankana({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
           centerTitle: true,
           systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
             statusBarColor: const Color(0xff751E85),
           ),
           elevation: 10.0,
-          shadowColor: Color.fromARGB(255, 255, 255, 255),
-          backgroundColor: Color.fromARGB(255, 255, 98, 0),
+          shadowColor: const Color.fromARGB(255, 255, 255, 255),
+          backgroundColor: const Color.fromARGB(255, 255, 98, 0),
           title: const Text(
             'Мейманкана',
             style: TextStyle(
@@ -25,7 +28,7 @@ class Meimankana extends StatelessWidget {
           bottom: PreferredSize(
             preferredSize: const Size.fromHeight(1.0),
             child: Container(
-              color: Color.fromARGB(255, 255, 255, 255),
+              color: const Color.fromARGB(255, 255, 255, 255),
               height: 2,
             ),
           ),
@@ -35,7 +38,7 @@ class Meimankana extends StatelessWidget {
             child: Column(children: [
               Container(height: 10),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 2, color: Colors.black),
                     bottom: BorderSide(width: 2, color: Colors.black),
@@ -44,7 +47,7 @@ class Meimankana extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -52,7 +55,7 @@ class Meimankana extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -65,7 +68,7 @@ class Meimankana extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -74,7 +77,7 @@ class Meimankana extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -82,7 +85,7 @@ class Meimankana extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -95,7 +98,7 @@ class Meimankana extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -104,7 +107,7 @@ class Meimankana extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -115,7 +118,7 @@ class Meimankana extends StatelessWidget {
                         children: [
                           Center(
                               child: Padding(
-                                  padding: EdgeInsets.all(10),
+                                  padding: const EdgeInsets.all(10),
                                   child: Text(
                                     "passport  \n  [па:спо:т]",
                                     style: GoogleFonts.prompt(fontSize: 15),
@@ -125,7 +128,7 @@ class Meimankana extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -134,7 +137,7 @@ class Meimankana extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -142,7 +145,7 @@ class Meimankana extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -155,7 +158,7 @@ class Meimankana extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -164,7 +167,7 @@ class Meimankana extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -172,7 +175,7 @@ class Meimankana extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -185,7 +188,7 @@ class Meimankana extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -194,7 +197,7 @@ class Meimankana extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -202,7 +205,7 @@ class Meimankana extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -224,7 +227,7 @@ class Meimankana extends StatelessWidget {
                 endIndent: 5,
               ),
               Column(children: [
-                Text(
+                const Text(
                   " Мага анча кымбат эмес мейманкана керек. \n Мне нужна не очень дорогая гостиница.\n I need not a very expensive hotel. \n [ай ни:д нод э вери икспэнсив хоутэл.]\n ",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
@@ -243,7 +246,7 @@ class Meimankana extends StatelessWidget {
                   endIndent: 5,
                 ),
                 Column(children: [
-                  Text(
+                  const Text(
                     "Мага бөлмөнү алдын ала алып коюшту. \n Для меня забронирован номер.\n I have a reservation.  \n   [ ай хэв э ризэвэйш(э)н.]\n ",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
@@ -262,7 +265,7 @@ class Meimankana extends StatelessWidget {
                     endIndent: 5,
                   ),
                   Column(children: [
-                    Text(
+                    const Text(
                       "Менин паспортум.\n Вот мой паспорт.\n Here is my passort. \n [ хиэ(р)из май па:спо:т. ] \n",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
@@ -282,7 +285,7 @@ class Meimankana extends StatelessWidget {
                       endIndent: 5,
                     ),
                     Column(children: [
-                      Text(
+                      const Text(
                         "Силерде бош орундар барбы?. \n У вас есть свободные номерa?\n Do you have vacant rooms? \n [ ду ю хэв вэйкэнт ру:мз?] \n",
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold),
@@ -309,7 +312,7 @@ class Meimankana extends StatelessWidget {
                         endIndent: 5,
                       ),
                       Column(children: [
-                        Text(
+                        const Text(
                           "Мага бир орундуу бөлмө керек.\n Мне нужен одноместный номер.\n  I d like a single room. \n [ айд лайк э сингл ру:м. ]\n ",
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.bold),
@@ -329,7 +332,7 @@ class Meimankana extends StatelessWidget {
                           endIndent: 5,
                         ),
                         Column(children: [
-                          Text(
+                          const Text(
                             "Бир түнгө канча турат? \n Сколько стоит номер в сутки? \n How much is it per night? \n [ хау мач из ит пэ: найт?]\n ",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.bold),
@@ -344,7 +347,7 @@ class Meimankana extends StatelessWidget {
                           //контейнер текст
                           const SizedBox(height: 10),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -358,14 +361,14 @@ class Meimankana extends StatelessWidget {
                                 TableRow(children: [
                                   Center(
                                       child: Padding(
-                                          padding: EdgeInsets.all(10),
+                                          padding: const EdgeInsets.all(10),
                                           child: Text(
                                             "мен жайгашам \n остановится ",
                                             style: GoogleFonts.prompt(
                                                 fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -378,7 +381,7 @@ class Meimankana extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -390,7 +393,7 @@ class Meimankana extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -398,7 +401,7 @@ class Meimankana extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -411,7 +414,7 @@ class Meimankana extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -425,14 +428,14 @@ class Meimankana extends StatelessWidget {
                                 TableRow(children: [
                                   Center(
                                       child: Padding(
-                                          padding: EdgeInsets.all(10),
+                                          padding: const EdgeInsets.all(10),
                                           child: Text(
                                             "кымбат \n дорого ",
                                             style: GoogleFonts.prompt(
                                                 fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -445,7 +448,7 @@ class Meimankana extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -457,7 +460,7 @@ class Meimankana extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -465,7 +468,7 @@ class Meimankana extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -478,7 +481,7 @@ class Meimankana extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -490,7 +493,7 @@ class Meimankana extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -498,7 +501,7 @@ class Meimankana extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -511,7 +514,7 @@ class Meimankana extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -523,7 +526,7 @@ class Meimankana extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -531,7 +534,7 @@ class Meimankana extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -544,7 +547,7 @@ class Meimankana extends StatelessWidget {
                                 ]),
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -556,7 +559,7 @@ class Meimankana extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -567,7 +570,7 @@ class Meimankana extends StatelessWidget {
                                     children: [
                                       Center(
                                           child: Padding(
-                                              padding: EdgeInsets.all(10),
+                                              padding: const EdgeInsets.all(10),
                                               child: Text(
                                                 "safe \n[сэйф]",
                                                 style: GoogleFonts.prompt(
@@ -587,7 +590,7 @@ class Meimankana extends StatelessWidget {
                             endIndent: 5,
                           ),
                           Column(children: [
-                            Text(
+                            const Text(
                               " Мен бир түнгө жайгаштым. \n Я остановвлюсь на одни сутки. \n I ll stay here for one night. \n [ айл стэй хиэ фо уан найт]\n ",
                               style: TextStyle(
                                   fontSize: 15, fontWeight: FontWeight.bold),
@@ -607,7 +610,7 @@ class Meimankana extends StatelessWidget {
                               endIndent: 5,
                             ),
                             Column(children: [
-                              Text(
+                              const Text(
                                 "Мен бөлмөнү көрсөм болобу? \n Могу я посмотреть номер? \n Can i look at the room? \n [ кэн ай лук эт зэ ру:м?]\n ",
                                 style: TextStyle(
                                     fontSize: 15, fontWeight: FontWeight.bold),
@@ -627,7 +630,7 @@ class Meimankana extends StatelessWidget {
                                 endIndent: 5,
                               ),
                               Column(children: [
-                                Text(
+                                const Text(
                                   "Бул абдан эле кымбат.\n Это слишком дорого. \n It s too expensive. \n [ итс ту: икспэнсив] \n",
                                   style: TextStyle(
                                       fontSize: 15,
@@ -648,7 +651,7 @@ class Meimankana extends StatelessWidget {
                                   endIndent: 5,
                                 ),
                                 Column(children: [
-                                  Text(
+                                  const Text(
                                     "Мындан арзаныраагы жокпу? \n У вас есть что-нибудь подешевле?\n Have you anything cheaper? \n [ хэв ю:энисин(г) чи:пэ] \n",
                                     style: TextStyle(
                                         fontSize: 15,
@@ -676,7 +679,7 @@ class Meimankana extends StatelessWidget {
                                     endIndent: 5,
                                   ),
                                   Column(children: [
-                                    Text(
+                                    const Text(
                                       "Мен бул бөлмөгө жайгашам.\n Я беру этот номер.\n I ll take this room. \n [ айл тэйк зис ру:м ]\n ",
                                       style: TextStyle(
                                           fontSize: 15,
@@ -697,7 +700,7 @@ class Meimankana extends StatelessWidget {
                                       endIndent: 5,
                                     ),
                                     Column(children: [
-                                      Text(
+                                      const Text(
                                         "Эсептешүү убактысы качан? \n Когда расчётный час? \n What is the checkout time? \n [ уот из зэ чекаут тайм?]\n ",
                                         style: TextStyle(
                                             fontSize: 15,
@@ -718,7 +721,7 @@ class Meimankana extends StatelessWidget {
                                         endIndent: 5,
                                       ),
                                       Column(children: [
-                                        Text(
+                                        const Text(
                                           "Мен сактоочу жай менен колдонсом болобу? \n Могу я воспользоваться сейфом? \n May i use the safe? \n [ мэй ай ю:з зэ сэйф?]\n ",
                                           style: TextStyle(
                                               fontSize: 15,
@@ -736,7 +739,7 @@ class Meimankana extends StatelessWidget {
                                         /////////////////////////////////////////////////
                                         const SizedBox(height: 10),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -755,7 +758,7 @@ class Meimankana extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -765,7 +768,7 @@ class Meimankana extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -781,7 +784,7 @@ class Meimankana extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -800,7 +803,7 @@ class Meimankana extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -810,7 +813,7 @@ class Meimankana extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -826,7 +829,7 @@ class Meimankana extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -845,7 +848,7 @@ class Meimankana extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -855,7 +858,7 @@ class Meimankana extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -871,7 +874,7 @@ class Meimankana extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -890,7 +893,7 @@ class Meimankana extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -900,7 +903,7 @@ class Meimankana extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -916,7 +919,7 @@ class Meimankana extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -935,7 +938,7 @@ class Meimankana extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -945,7 +948,7 @@ class Meimankana extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -961,7 +964,7 @@ class Meimankana extends StatelessWidget {
                                               ]),
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -980,7 +983,7 @@ class Meimankana extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -989,7 +992,7 @@ class Meimankana extends StatelessWidget {
                                                           style: TextStyle(
                                                               fontSize: 15),
                                                         ))),
-                                                Column(children: [
+                                                Column(children: const [
                                                   Center(
                                                       child: Padding(
                                                           padding:
@@ -1004,7 +1007,7 @@ class Meimankana extends StatelessWidget {
                                               ]),
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -1024,7 +1027,7 @@ class Meimankana extends StatelessWidget {
                                             children: [
                                               TableRow(
                                                 children: [
-                                                  Center(
+                                                  const Center(
                                                       child: Padding(
                                                           padding:
                                                               EdgeInsets.all(
@@ -1034,7 +1037,7 @@ class Meimankana extends StatelessWidget {
                                                             style: TextStyle(
                                                                 fontSize: 15),
                                                           ))),
-                                                  Column(children: [
+                                                  Column(children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1062,7 +1065,7 @@ class Meimankana extends StatelessWidget {
                                           endIndent: 5,
                                         ),
                                         Column(children: [
-                                          Text(
+                                          const Text(
                                             " Менин жүгүмдү бөлмөмө жеткирип бергиле. \n Пожалуйста,отнесите мой багаш в номер. \n Please, take my luggage to my room. \n [ пли:з тэйк май лагидж ту май ру:м]\n ",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -1083,7 +1086,7 @@ class Meimankana extends StatelessWidget {
                                             endIndent: 5,
                                           ),
                                           Column(children: [
-                                            Text(
+                                            const Text(
                                               "Эртең мененки тамактануу кайсыл убакта? \n Когда у вас завтрак? \n When is breakfast served? \n [ уэн из брэкфэст сэ:вд?]\n ",
                                               style: TextStyle(
                                                   fontSize: 15,
@@ -1106,7 +1109,7 @@ class Meimankana extends StatelessWidget {
                                               endIndent: 5,
                                             ),
                                             Column(children: [
-                                              Text(
+                                              const Text(
                                                 "Менин бөлмөмдүн ачкычын бериңизчи.\n Дайте,пожалуйста, ключ от номера... \n Give me,please,the key to room... \n [ гив ми пли:з зэ ки:ту ру:м...] \n",
                                                 style: TextStyle(
                                                     fontSize: 15,
@@ -1130,7 +1133,7 @@ class Meimankana extends StatelessWidget {
                                                 endIndent: 5,
                                               ),
                                               Column(children: [
-                                                Text(
+                                                const Text(
                                                   "Мени эртең менен саат 7де ойготуп коюңуз. \n Разбудите меня,пожалуйста,в семь утра.\n Wake me up,please,at seven o clock in the morning. \n [ уэйк ми ап пли:з эт сэвн оклок ин зэ мо:нин(г)] \n",
                                                   style: TextStyle(
                                                       fontSize: 15,
@@ -1162,7 +1165,7 @@ class Meimankana extends StatelessWidget {
                                                   endIndent: 5,
                                                 ),
                                                 Column(children: [
-                                                  Text(
+                                                  const Text(
                                                     "Такси чакырып бериңизчи?\n Закажите, пожалуйста,такси?\n Could you,please,call me a taxi? \n [ куд ю пли:з ко:л ми э тэкси? ]\n ",
                                                     style: TextStyle(
                                                         fontSize: 15,
@@ -1186,7 +1189,7 @@ class Meimankana extends StatelessWidget {
                                                     endIndent: 5,
                                                   ),
                                                   Column(children: [
-                                                    Text(
+                                                    const Text(
                                                       "Мага дагы бир жаздык бериңизчи. \n Дайте мне,пожалуйста,ещё одну подушку. \n Give me,please,one more pillow. \n [ гив ми пли:з уан мо:пилоу.]\n ",
                                                       style: TextStyle(
                                                           fontSize: 15,
@@ -1210,7 +1213,7 @@ class Meimankana extends StatelessWidget {
                                                       endIndent: 5,
                                                     ),
                                                     Column(children: [
-                                                      Text(
+                                                      const Text(
                                                         "Сүлгүнү алмаштырып бериңизчи. \n Смените,пожалуйста,полотенце. \n Change a towel,please. \n [ чэйндж э тауэл пли:з.]\n ",
                                                         style: TextStyle(
                                                             fontSize: 15,
@@ -1231,7 +1234,7 @@ class Meimankana extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1256,7 +1259,7 @@ class Meimankana extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1266,7 +1269,7 @@ class Meimankana extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1280,7 +1283,7 @@ class Meimankana extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1305,7 +1308,7 @@ class Meimankana extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1315,7 +1318,7 @@ class Meimankana extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1329,7 +1332,7 @@ class Meimankana extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1354,7 +1357,7 @@ class Meimankana extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1364,7 +1367,7 @@ class Meimankana extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1378,7 +1381,7 @@ class Meimankana extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1403,7 +1406,7 @@ class Meimankana extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1413,7 +1416,7 @@ class Meimankana extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1427,7 +1430,7 @@ class Meimankana extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1452,7 +1455,7 @@ class Meimankana extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1462,7 +1465,7 @@ class Meimankana extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1476,7 +1479,7 @@ class Meimankana extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1501,7 +1504,7 @@ class Meimankana extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1510,7 +1513,7 @@ class Meimankana extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -1523,7 +1526,7 @@ class Meimankana extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1548,7 +1551,7 @@ class Meimankana extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1557,7 +1560,7 @@ class Meimankana extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -1583,7 +1586,7 @@ class Meimankana extends StatelessWidget {
                                                         endIndent: 5,
                                                       ),
                                                       Column(children: [
-                                                        Text(
+                                                        const Text(
                                                           " Сыналгы бузулуп калды.\n Телевизор сломался. \n The TV is out of order. \n [ зэ тиви из аут оф о:дэ.] \n",
                                                           style: TextStyle(
                                                               fontSize: 15,
@@ -1608,7 +1611,7 @@ class Meimankana extends StatelessWidget {
                                                           endIndent: 5,
                                                         ),
                                                         Column(children: [
-                                                          Text(
+                                                          const Text(
                                                             "Менин бөлмөмдө лампочка күйүп кетти. \n У меня в номере перегорела лампочка. \n A bulb has burnt out in my room. \n [ э балб хэз бэ:нт аут ин май ру:м.]\n ",
                                                             style: TextStyle(
                                                                 fontSize: 15,
@@ -1641,7 +1644,7 @@ class Meimankana extends StatelessWidget {
                                                             endIndent: 5,
                                                           ),
                                                           Column(children: [
-                                                            Text(
+                                                            const Text(
                                                               "Даараткана жакшы иштебей жатат.\n Туалет плохо работает. \n The toilet is out of order. \n [ зэ тойлит из аут оф о:дэ.] \n",
                                                               style: TextStyle(
                                                                   fontSize: 15,
@@ -1668,7 +1671,7 @@ class Meimankana extends StatelessWidget {
                                                               endIndent: 5,
                                                             ),
                                                             Column(children: [
-                                                              Text(
+                                                              const Text(
                                                                 "Менин бөлмөмдө эшик жабылбай жатат. \n У меня дверь не закрывается.\n I can t lock my door. \n [ ай ка:нт лок май до] \n",
                                                                 style: TextStyle(
                                                                     fontSize:
@@ -1714,7 +1717,7 @@ class Meimankana extends StatelessWidget {
                                                                 endIndent: 5,
                                                               ),
                                                               Column(children: [
-                                                                Text(
+                                                                const Text(
                                                                   "Эсептешүү кагазды бериңизчи.\n Счёт,пожалуйста.\n The bill, please. \n [ зэ бил пли:з ]\n ",
                                                                   style: TextStyle(
                                                                       fontSize:
@@ -1749,7 +1752,7 @@ class Meimankana extends StatelessWidget {
                                                                 ),
                                                                 Column(
                                                                     children: [
-                                                                      Text(
+                                                                      const Text(
                                                                         "Мен накталай төлөйм. \n Я плачу наличными. \n I pay in cash. \n [ ай пэй ин кэш.]\n ",
                                                                         style: TextStyle(
                                                                             fontSize:
@@ -1789,7 +1792,7 @@ class Meimankana extends StatelessWidget {
                                                                       ),
                                                                       Column(
                                                                           children: [
-                                                                            Text(
+                                                                            const Text(
                                                                               "Насыя карточка менен төлөсөм болобу? \n Можно оплатить кредитной картой? \n Can i pay by credit cart? \n [ кэн ай пэй бай кредит ка:д?]\n ",
                                                                               style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                                                                             ),
@@ -1804,7 +1807,7 @@ class Meimankana extends StatelessWidget {
                                                                             /////////////////////////////////////////
                                                                             ////////////////////////////////////////
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -1813,7 +1816,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -1821,7 +1824,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -1834,7 +1837,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 0, color: Colors.black),
@@ -1843,7 +1846,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -1851,7 +1854,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -1864,7 +1867,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -1873,7 +1876,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -1881,7 +1884,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -1894,7 +1897,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -1903,7 +1906,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -1911,7 +1914,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -1924,7 +1927,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -1933,7 +1936,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -1941,7 +1944,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -1954,7 +1957,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ]),
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -1963,14 +1966,14 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
                                                                                               "ташуучу \n носилщик ",
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
-                                                                                    Column(children: [
+                                                                                    Column(children: const [
                                                                                       Center(
                                                                                           child: Padding(
                                                                                               padding: EdgeInsets.all(10),
@@ -1982,7 +1985,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ]),
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -1991,14 +1994,14 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
                                                                                               "кабыл алуучу \n портеь ",
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
-                                                                                    Column(children: [
+                                                                                    Column(children: const [
                                                                                       Center(
                                                                                           child: Padding(
                                                                                               padding: EdgeInsets.all(10),
@@ -2012,7 +2015,7 @@ class Meimankana extends StatelessWidget {
                                                                             /////////////////////////////////////////
                                                                             ////////////////////////////////////////
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2021,7 +2024,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2029,7 +2032,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2042,7 +2045,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 0, color: Colors.black),
@@ -2051,7 +2054,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2059,7 +2062,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2072,7 +2075,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2081,7 +2084,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2089,7 +2092,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2102,7 +2105,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2111,7 +2114,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2119,7 +2122,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2132,7 +2135,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2141,7 +2144,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2149,7 +2152,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2162,7 +2165,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ]),
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2171,14 +2174,14 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
                                                                                               "көтөрүүчү  \n лифт ",
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
-                                                                                    Column(children: [
+                                                                                    Column(children: const [
                                                                                       Center(
                                                                                           child: Padding(
                                                                                               padding: EdgeInsets.all(10),
@@ -2190,7 +2193,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ]),
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2199,14 +2202,14 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
                                                                                               "кабат \n этаж ",
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
-                                                                                    Column(children: [
+                                                                                    Column(children: const [
                                                                                       Center(
                                                                                           child: Padding(
                                                                                               padding: EdgeInsets.all(10),
@@ -2220,7 +2223,7 @@ class Meimankana extends StatelessWidget {
                                                                             /////////////////////////////////////////
                                                                             ////////////////////////////////////////
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2229,7 +2232,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2237,7 +2240,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2250,7 +2253,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 0, color: Colors.black),
@@ -2259,7 +2262,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2267,7 +2270,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2280,7 +2283,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2289,7 +2292,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2297,7 +2300,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2310,7 +2313,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2319,7 +2322,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2327,7 +2330,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2340,7 +2343,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2349,7 +2352,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2357,7 +2360,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2370,7 +2373,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ]),
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2379,14 +2382,14 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
                                                                                               "жууркан \n одеяло ",
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
-                                                                                    Column(children: [
+                                                                                    Column(children: const [
                                                                                       Center(
                                                                                           child: Padding(
                                                                                               padding: EdgeInsets.all(10),
@@ -2398,7 +2401,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ]),
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2407,14 +2410,14 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
                                                                                               "чылым салгыч \n пепельница ",
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
-                                                                                    Column(children: [
+                                                                                    Column(children: const [
                                                                                       Center(
                                                                                           child: Padding(
                                                                                               padding: EdgeInsets.all(10),
@@ -2428,7 +2431,7 @@ class Meimankana extends StatelessWidget {
                                                                             /////////////////////////////////////////
                                                                             ////////////////////////////////////////
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2437,7 +2440,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2445,7 +2448,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2458,7 +2461,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 0, color: Colors.black),
@@ -2467,7 +2470,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2475,7 +2478,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2488,7 +2491,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2497,7 +2500,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2505,7 +2508,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2518,7 +2521,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2527,7 +2530,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2535,7 +2538,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2548,7 +2551,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ])
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2557,7 +2560,7 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
@@ -2565,7 +2568,7 @@ class Meimankana extends StatelessWidget {
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
                                                                                     Column(
-                                                                                      children: [
+                                                                                      children: const [
                                                                                         Center(
                                                                                             child: Padding(
                                                                                                 padding: EdgeInsets.all(10),
@@ -2578,7 +2581,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ]),
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2587,14 +2590,14 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
                                                                                               "муздаткыч \n холодильник ",
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
-                                                                                    Column(children: [
+                                                                                    Column(children: const [
                                                                                       Center(
                                                                                           child: Padding(
                                                                                               padding: EdgeInsets.all(10),
@@ -2606,7 +2609,7 @@ class Meimankana extends StatelessWidget {
                                                                                   ]),
                                                                                 ]),
                                                                             Table(
-                                                                                border: TableBorder(
+                                                                                border: const TableBorder(
                                                                                   verticalInside: BorderSide(width: 2, color: Colors.black),
                                                                                   top: BorderSide(width: 1, color: Colors.black),
                                                                                   bottom: BorderSide(width: 1, color: Colors.black),
@@ -2615,14 +2618,14 @@ class Meimankana extends StatelessWidget {
                                                                                 ),
                                                                                 children: [
                                                                                   TableRow(children: [
-                                                                                    Center(
+                                                                                    const Center(
                                                                                         child: Padding(
                                                                                             padding: EdgeInsets.all(10),
                                                                                             child: Text(
                                                                                               "күзгү \n зеркало ",
                                                                                               style: TextStyle(fontSize: 15),
                                                                                             ))),
-                                                                                    Column(children: [
+                                                                                    Column(children: const [
                                                                                       Center(
                                                                                           child: Padding(
                                                                                               padding: EdgeInsets.all(10),

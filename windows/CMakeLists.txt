@@ -1,10 +1,10 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-project(kyrgyzcha_oruscha_anglische_suiloshmo LANGUAGES CXX)
+project(ky_ru_en_suiloshmo LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
-set(BINARY_NAME "kyrgyzcha_oruscha_anglische_suiloshmo")
+set(BINARY_NAME "ky_ru_en_suiloshmo")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

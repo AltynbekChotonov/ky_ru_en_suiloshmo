@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Koshtoshuu extends StatelessWidget {
-  Widget build(BuildContext inContext) {
+  const Koshtoshuu({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 255, 255, 255),
+      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       appBar: AppBar(
         centerTitle: true,
         systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
           statusBarColor: const Color(0xff751E85),
         ),
         elevation: 10.0,
-        shadowColor: Color.fromARGB(255, 255, 255, 255),
-        backgroundColor: Color.fromARGB(255, 255, 98, 0),
+        shadowColor: const Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 255, 98, 0),
         title: const Text(
           'Коштошуу',
           style: TextStyle(
@@ -25,7 +27,7 @@ class Koshtoshuu extends StatelessWidget {
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(1.0),
           child: Container(
-            color: Color.fromARGB(255, 255, 255, 255),
+            color: const Color.fromARGB(255, 255, 255, 255),
             height: 2,
           ),
         ),
@@ -35,7 +37,7 @@ class Koshtoshuu extends StatelessWidget {
         child: Column(children: [
           Container(height: 10),
           Table(
-              border: TableBorder(
+              border: const TableBorder(
                 verticalInside: BorderSide(width: 2, color: Colors.black),
                 top: BorderSide(width: 2, color: Colors.black),
                 bottom: BorderSide(width: 2, color: Colors.black),
@@ -44,7 +46,7 @@ class Koshtoshuu extends StatelessWidget {
               ),
               children: [
                 TableRow(children: [
-                  Center(
+                  const Center(
                       child: Padding(
                           padding: EdgeInsets.all(10),
                           child: Text(
@@ -52,7 +54,7 @@ class Koshtoshuu extends StatelessWidget {
                             style: TextStyle(fontSize: 15),
                           ))),
                   Column(
-                    children: [
+                    children: const [
                       Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
@@ -65,7 +67,7 @@ class Koshtoshuu extends StatelessWidget {
                 ])
               ]),
           Table(
-              border: TableBorder(
+              border: const TableBorder(
                 verticalInside: BorderSide(width: 2, color: Colors.black),
                 top: BorderSide(width: 0, color: Colors.black),
                 bottom: BorderSide(width: 1, color: Colors.black),
@@ -74,7 +76,7 @@ class Koshtoshuu extends StatelessWidget {
               ),
               children: [
                 TableRow(children: [
-                  Center(
+                  const Center(
                       child: Padding(
                           padding: EdgeInsets.all(10),
                           child: Text(
@@ -82,7 +84,7 @@ class Koshtoshuu extends StatelessWidget {
                             style: TextStyle(fontSize: 15),
                           ))),
                   Column(
-                    children: [
+                    children: const [
                       Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
@@ -95,7 +97,7 @@ class Koshtoshuu extends StatelessWidget {
                 ])
               ]),
           Table(
-              border: TableBorder(
+              border: const TableBorder(
                 verticalInside: BorderSide(width: 2, color: Colors.black),
                 top: BorderSide(width: 0, color: Colors.black),
                 bottom: BorderSide(width: 1, color: Colors.black),
@@ -104,7 +106,7 @@ class Koshtoshuu extends StatelessWidget {
               ),
               children: [
                 TableRow(children: [
-                  Center(
+                  const Center(
                       child: Padding(
                           padding: EdgeInsets.all(10),
                           child: Text(
@@ -112,7 +114,7 @@ class Koshtoshuu extends StatelessWidget {
                             style: TextStyle(fontSize: 15),
                           ))),
                   Column(
-                    children: [
+                    children: const [
                       Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
@@ -125,7 +127,7 @@ class Koshtoshuu extends StatelessWidget {
                 ])
               ]),
           Table(
-              border: TableBorder(
+              border: const TableBorder(
                 verticalInside: BorderSide(width: 2, color: Colors.black),
                 top: BorderSide(width: 0, color: Colors.black),
                 bottom: BorderSide(width: 1, color: Colors.black),
@@ -134,7 +136,7 @@ class Koshtoshuu extends StatelessWidget {
               ),
               children: [
                 TableRow(children: [
-                  Center(
+                  const Center(
                       child: Padding(
                           padding: EdgeInsets.all(10),
                           child: Text(
@@ -142,7 +144,7 @@ class Koshtoshuu extends StatelessWidget {
                             style: TextStyle(fontSize: 15),
                           ))),
                   Column(
-                    children: [
+                    children: const [
                       Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
@@ -155,7 +157,7 @@ class Koshtoshuu extends StatelessWidget {
                 ])
               ]),
           Table(
-              border: TableBorder(
+              border: const TableBorder(
                 verticalInside: BorderSide(width: 2, color: Colors.black),
                 top: BorderSide(width: 0, color: Colors.black),
                 bottom: BorderSide(width: 1, color: Colors.black),
@@ -164,7 +166,7 @@ class Koshtoshuu extends StatelessWidget {
               ),
               children: [
                 TableRow(children: [
-                  Center(
+                  const Center(
                       child: Padding(
                           padding: EdgeInsets.all(10),
                           child: Text(
@@ -172,7 +174,7 @@ class Koshtoshuu extends StatelessWidget {
                             style: TextStyle(fontSize: 15),
                           ))),
                   Column(
-                    children: [
+                    children: const [
                       Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
@@ -185,7 +187,7 @@ class Koshtoshuu extends StatelessWidget {
                 ])
               ]),
           Table(
-              border: TableBorder(
+              border: const TableBorder(
                 verticalInside: BorderSide(width: 2, color: Colors.black),
                 top: BorderSide(width: 0, color: Colors.black),
                 bottom: BorderSide(width: 1, color: Colors.black),
@@ -194,7 +196,7 @@ class Koshtoshuu extends StatelessWidget {
               ),
               children: [
                 TableRow(children: [
-                  Center(
+                  const Center(
                       child: Padding(
                           padding: EdgeInsets.all(10),
                           child: Text(
@@ -202,7 +204,7 @@ class Koshtoshuu extends StatelessWidget {
                             style: TextStyle(fontSize: 15),
                           ))),
                   Column(
-                    children: [
+                    children: const [
                       Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
