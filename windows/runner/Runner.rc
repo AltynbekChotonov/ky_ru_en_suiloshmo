@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "kyrgyzcha_oruscha_anglische_suiloshmo" "\0"
+            VALUE "FileDescription", "ky_ru_en_suiloshmo" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "kyrgyzcha_oruscha_anglische_suiloshmo" "\0"
+            VALUE "InternalName", "ky_ru_en_suiloshmo" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "kyrgyzcha_oruscha_anglische_suiloshmo.exe" "\0"
-            VALUE "ProductName", "kyrgyzcha_oruscha_anglische_suiloshmo" "\0"
+            VALUE "OriginalFilename", "ky_ru_en_suiloshmo.exe" "\0"
+            VALUE "ProductName", "ky_ru_en_suiloshmo" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

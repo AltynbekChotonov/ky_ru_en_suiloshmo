@@ -1,10 +1,7 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
-import 'package:url_launcher/url_launcher.dart';
+import 'package:ky_ru_en_suiloshmo/services/app_launch.dart';
 
 import 'better/airiport.dart';
 import 'better/atoochtor.dart';
@@ -41,74 +38,50 @@ class HomePage extends StatefulWidget {
 
 class _LoginPageState extends State<HomePage> {
   bool isActive = true;
-  String? _email;
-  String? _phone;
   String selectedTile = "fixed";
 
   get instagram => null;
-  void _activate() {
-    log(instagram.toString());
-    if (instagram != null && _email != null) {
-      if (instagram!.isEmpty || _email!.isEmpty) {
-        isActive = false;
-      } else {
-        isActive = true;
-      }
-    }
-
-    setState(() {});
-  }
-
-  Future<void> insta(String url) async {
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw "cannot launch $url";
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
-    var selectedTile;
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 255, 98, 0),
+      backgroundColor: const Color.fromARGB(255, 255, 98, 0),
       appBar: AppBar(
         actions: <Widget>[
-          PopupMenuButton(
-              itemBuilder: (BuildContext context) => [
-                    PopupMenuItem(child: Text('instagram')),
-                    PopupMenuItem(child: Text('telegram')),
-                    PopupMenuItem(child: Text('facebook')),
-                  ]),
-          IconButton(
-            icon: const Icon(FontAwesomeIcons.instagram),
-            tooltip: 'instagram',
-            onPressed: () {
-              insta("https://www.instagram.com/altynbek_chotonov/");
-            },
+          PopupMenuButton<String>(
+            onSelected: (value) => AppLaunch.launchURL(value),
+            itemBuilder: (BuildContext context) => <PopupMenuEntry<String>>[
+              const PopupMenuItem<String>(
+                value: 'https://www.instagram.com/altynbek_chotonov/',
+                child: ListTile(
+                  leading: Icon(FontAwesomeIcons.instagram),
+                  title: Text('Instagram'),
+                ),
+              ),
+              const PopupMenuItem<String>(
+                value: 'https://t.me/ITMobileCompany',
+                child: ListTile(
+                  leading: Icon(FontAwesomeIcons.telegram),
+                  title: Text('Telegram'),
+                ),
+              ),
+              const PopupMenuItem<String>(
+                value: 'https://www.facebook.com/altynbek.chotonov',
+                child: ListTile(
+                  leading: Icon(FontAwesomeIcons.facebook),
+                  title: Text('Facebook'),
+                ),
+              ),
+            ],
           ),
-          IconButton(
-            icon: const Icon(Icons.telegram),
-            tooltip: 'telegram',
-            onPressed: () {
-              insta("https://t.me/ITMobileCompany");
-            },
-          ),
-          IconButton(
-            icon: const Icon(Icons.facebook),
-            tooltip: 'facebook',
-            onPressed: () {
-              insta("https://www.facebook.com/altynbek.chotonov");
-            },
-          )
         ],
         centerTitle: true,
         systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
           statusBarColor: const Color(0xff751E85),
         ),
         elevation: 10.0,
-        shadowColor: Color.fromARGB(255, 255, 255, 255),
-        backgroundColor: Color.fromARGB(255, 255, 98, 0),
+        shadowColor: const Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 255, 98, 0),
         title: const Text(
           'Кызыктуу сүйлөшмө',
           style: TextStyle(
@@ -120,7 +93,7 @@ class _LoginPageState extends State<HomePage> {
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(1.0),
           child: Container(
-            color: Color.fromARGB(255, 255, 254, 254),
+            color: const Color.fromARGB(255, 255, 254, 254),
             height: 2,
           ),
         ),
@@ -140,24 +113,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Uchurashuu()),
+                                MaterialPageRoute(builder: (context) => const Uchurashuu()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Учурашуу',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 100, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -166,24 +135,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Koshtoshuu()),
+                                MaterialPageRoute(builder: (context) => const Koshtoshuu()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 98, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Коштошуу',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 98, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -192,24 +157,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Airiport()),
+                                MaterialPageRoute(builder: (context) => const Airiport()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Аэропорт',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 100, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -218,24 +179,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Samalot()),
+                                MaterialPageRoute(builder: (context) => const Samalot()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 103, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Самолёт',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 103, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -244,23 +201,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => Taxi()),
+                                MaterialPageRoute(builder: (context) => const Taxi()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 115, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Такси',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 115, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -269,24 +223,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Meimankana()),
+                                MaterialPageRoute(builder: (context) => const Meimankana()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 82, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Мейманкана',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 82, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -295,24 +245,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Restoran()),
+                                MaterialPageRoute(builder: (context) => const Restoran()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 98, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Ресторан',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 98, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -321,24 +267,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Shaar()),
+                                MaterialPageRoute(builder: (context) => const Shaar()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 103, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Шаарда',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 103, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -347,24 +289,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Baruuchu_jerler()),
+                                MaterialPageRoute(builder: (context) => const BaruuchuJerler()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 62, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Көрүүчү жерлер',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 62, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -373,24 +311,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Avtobus()),
+                                MaterialPageRoute(builder: (context) => const Avtobus()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Автобус',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 100, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -399,24 +333,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Metro()),
+                                MaterialPageRoute(builder: (context) => const Metro()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 105, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Метро',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 105, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -425,24 +355,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Vokzal()),
+                                MaterialPageRoute(builder: (context) => const Vokzal()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 108, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Бекет',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 108, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -451,24 +377,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Poezd()),
+                                MaterialPageRoute(builder: (context) => const Poezd()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 108, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Поезд',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 108, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -477,24 +399,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Avtomobil()),
+                                MaterialPageRoute(builder: (context) => const Avtomobil()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 80, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Автомобиль',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 80, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -503,24 +421,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Satyp_aluu()),
+                                MaterialPageRoute(builder: (context) => const SatypAluu()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 85, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Сатып алуу',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 85, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -529,24 +443,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Doctur()),
+                                MaterialPageRoute(builder: (context) => const Doctur()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 85, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Дарыгерде',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 85, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -555,24 +465,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Darycana()),
+                                MaterialPageRoute(builder: (context) => const Darycana()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 80, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Дарыканада',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 80, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -581,24 +487,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Politsia()),
+                                MaterialPageRoute(builder: (context) => const Politsia()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 85, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Полицияда',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 85, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -607,24 +509,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Taanyshuu()),
+                                MaterialPageRoute(builder: (context) => const Taanyshuu()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 92, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Таанышуу',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 92, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -633,24 +531,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Kairyluu()),
+                                MaterialPageRoute(builder: (context) => const Kairyluu()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 92, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Кайрылуу',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 92, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -659,24 +553,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Otunuch()),
+                                MaterialPageRoute(builder: (context) => const Otunuch()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 105, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Өтүнүч',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 105, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -685,24 +575,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Suroolor()),
+                                MaterialPageRoute(builder: (context) => const Suroolor()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 92, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Суроолор',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 92, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -711,24 +597,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Atoochtor()),
+                                MaterialPageRoute(builder: (context) => const Atoochtor()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Ат атооч / Сан атооч',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 40, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -737,24 +619,20 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Ubakyt()),
+                                MaterialPageRoute(builder: (context) => const Ubakyt()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                      elevation: 4.0,
+                    ),
+                    child: const Text(
                       'Убакыт',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 100, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      elevation: 4.0,
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
                 // Elevated Button
                 ElevatedButton(
@@ -763,55 +641,26 @@ class _LoginPageState extends State<HomePage> {
                             {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                    builder: (context) => Tustor()),
+                                MaterialPageRoute(builder: (context) => const Tustor()),
                               );
                             }
                           }
                         : null,
-                    child: Text(
-                      'Түстөр',
-                      style: TextStyle(
-                          color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
-                    ),
                     style: ElevatedButton.styleFrom(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 100, vertical: 8),
-                      primary: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
+                      padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 8),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
                       elevation: 4.0,
+                    ),
+                    child: const Text(
+                      'Түстөр',
+                      style: TextStyle(color: Color.fromARGB(255, 255, 89, 0), fontSize: 20),
                     )),
               ],
             ),
           ),
         ),
       ),
-      /*bottomNavigationBar: ConvexAppBar(
-        onTap: (index) {
-          switch (index) {
-            case 0:
-              launch("https://www.instagram.com/altynbek_chotonov/");
-              break;
-            case 1:
-              launch("https://www.facebook.com/altynbek.chotonov");
-              break;
-            case 2:
-              launch("https://t.me/ITMobileCompany");
-              break;
-            default:
-              break;
-          }
-        },
-        style: styles[selectedTile],
-        items: const [
-          TabItem(icon: Icons.youtube_searched_for_sharp, title: "instagram"),
-          TabItem(icon: Icons.facebook, title: "facebook"),
-          TabItem(icon: Icons.telegram, title: "telegram"),
-        ],
-        initialActiveIndex: 1,
-        backgroundColor: Color.fromARGB(255, 255, 98, 0),
-      ),*/
     );
   }
 }

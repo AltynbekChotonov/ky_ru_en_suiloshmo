@@ -3,17 +3,20 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Doctur extends StatelessWidget {
-  Widget build(BuildContext inContext) {
+  const Doctur({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
           centerTitle: true,
           systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
             statusBarColor: const Color(0xff751E85),
           ),
           elevation: 10.0,
-          shadowColor: Color.fromARGB(255, 255, 255, 255),
-          backgroundColor: Color.fromARGB(255, 255, 98, 0),
+          shadowColor: const Color.fromARGB(255, 255, 255, 255),
+          backgroundColor: const Color.fromARGB(255, 255, 98, 0),
           title: const Text(
             'Дарыгерде',
             style: TextStyle(
@@ -25,7 +28,7 @@ class Doctur extends StatelessWidget {
           bottom: PreferredSize(
             preferredSize: const Size.fromHeight(1.0),
             child: Container(
-              color: Color.fromARGB(255, 255, 255, 255),
+              color: const Color.fromARGB(255, 255, 255, 255),
               height: 2,
             ),
           ),
@@ -35,7 +38,7 @@ class Doctur extends StatelessWidget {
             child: Column(children: [
               Container(height: 10),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 2, color: Colors.black),
                     bottom: BorderSide(width: 2, color: Colors.black),
@@ -44,7 +47,7 @@ class Doctur extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -52,7 +55,7 @@ class Doctur extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -65,7 +68,7 @@ class Doctur extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -74,7 +77,7 @@ class Doctur extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -82,7 +85,7 @@ class Doctur extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -95,7 +98,7 @@ class Doctur extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -104,7 +107,7 @@ class Doctur extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -115,7 +118,7 @@ class Doctur extends StatelessWidget {
                         children: [
                           Center(
                               child: Padding(
-                                  padding: EdgeInsets.all(10),
+                                  padding: const EdgeInsets.all(10),
                                   child: Text(
                                     "ambulance  \n [эмбьюлэнс]",
                                     style: GoogleFonts.prompt(fontSize: 15),
@@ -125,7 +128,7 @@ class Doctur extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -134,7 +137,7 @@ class Doctur extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -142,7 +145,7 @@ class Doctur extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -155,7 +158,7 @@ class Doctur extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -164,7 +167,7 @@ class Doctur extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -172,7 +175,7 @@ class Doctur extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -185,7 +188,7 @@ class Doctur extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -194,7 +197,7 @@ class Doctur extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -202,7 +205,7 @@ class Doctur extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -224,7 +227,7 @@ class Doctur extends StatelessWidget {
                 endIndent: 5,
               ),
               Column(children: [
-                Text(
+                const Text(
                   " Мейманканада врач барбы? \n Есть ли врач в гостинице? \n Is there a doctor in the hotel? \n [из зэа э доктэ ин зэ хоутэл?]\n ",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
@@ -243,7 +246,7 @@ class Doctur extends StatelessWidget {
                   endIndent: 5,
                 ),
                 Column(children: [
-                  Text(
+                  const Text(
                     "Вырачты чакырып коюңузчу. \n Вызовите, пожалуйста, врача.  \n Please, call me a doctor. \n  [ пли:з ко:л ми э доктэ]\n ",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
@@ -262,7 +265,7 @@ class Doctur extends StatelessWidget {
                     endIndent: 5,
                   ),
                   Column(children: [
-                    Text(
+                    const Text(
                       "Тез жардам чакырыңыз, сураныч. \n Вызовите скорую, пожалуйста. \n  Call an ambulance, please. \n [ ко:л эн эмбьюлэнс пли:з ] \n",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
@@ -282,7 +285,7 @@ class Doctur extends StatelessWidget {
                       endIndent: 5,
                     ),
                     Column(children: [
-                      Text(
+                      const Text(
                         "Мага жардам бере аласызбы, сураныч? \n Не могли бы вы мне помочь, пожалуйста? \n Could you help me, please? \n [ куд ю хелп ми пли:з?] \n",
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold),
@@ -309,7 +312,7 @@ class Doctur extends StatelessWidget {
                         endIndent: 5,
                       ),
                       Column(children: [
-                        Text(
+                        const Text(
                           "Мен ооруп жатам. \n Я заболел. \n I`m ill. \n [ айм ил ]\n ",
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.bold),
@@ -329,7 +332,7 @@ class Doctur extends StatelessWidget {
                           endIndent: 5,
                         ),
                         Column(children: [
-                          Text(
+                          const Text(
                             "Менин медициналык камсыздандыруу күбөлүгүм бар. \n У меня есть медицинская страховка. \n I have medical insurance certificate. \n [ ай хэв медик(э)л иншуэрэнс сэтификэт]\n ",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.bold),
@@ -344,7 +347,7 @@ class Doctur extends StatelessWidget {
                           //контейнер текст
                           const SizedBox(height: 10),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -356,7 +359,7 @@ class Doctur extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -364,7 +367,7 @@ class Doctur extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -377,7 +380,7 @@ class Doctur extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -389,7 +392,7 @@ class Doctur extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -397,7 +400,7 @@ class Doctur extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -410,7 +413,7 @@ class Doctur extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -422,7 +425,7 @@ class Doctur extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -430,7 +433,7 @@ class Doctur extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -443,7 +446,7 @@ class Doctur extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -455,7 +458,7 @@ class Doctur extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -463,7 +466,7 @@ class Doctur extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -476,7 +479,7 @@ class Doctur extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -488,7 +491,7 @@ class Doctur extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -496,7 +499,7 @@ class Doctur extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -509,7 +512,7 @@ class Doctur extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -521,7 +524,7 @@ class Doctur extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -529,7 +532,7 @@ class Doctur extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -542,7 +545,7 @@ class Doctur extends StatelessWidget {
                                 ]),
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -554,7 +557,7 @@ class Doctur extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -562,7 +565,7 @@ class Doctur extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -584,7 +587,7 @@ class Doctur extends StatelessWidget {
                             endIndent: 5,
                           ),
                           Column(children: [
-                            Text(
+                            const Text(
                               " Менин бул жерим ооруп жатат. \n У меня болит тут. \n I have an ache here. \n [ ай хэв эн эйк хиэ]\n ",
                               style: TextStyle(
                                   fontSize: 15, fontWeight: FontWeight.bold),
@@ -604,7 +607,7 @@ class Doctur extends StatelessWidget {
                               endIndent: 5,
                             ),
                             Column(children: [
-                              Text(
+                              const Text(
                                 "Мен ысытмалап жатам.\n У меня жар (температура). \n I have a fever. \n [ ай хэв э фи:вэ ]\n ",
                                 style: TextStyle(
                                     fontSize: 15, fontWeight: FontWeight.bold),
@@ -624,7 +627,7 @@ class Doctur extends StatelessWidget {
                                 endIndent: 5,
                               ),
                               Column(children: [
-                                Text(
+                                const Text(
                                   "Менин ашказаным бузулуп жатат. \n У меня расстройство желудка. \n I have a disordered stomach. \n [ ай хэв э дисо:дид стамэк] \n",
                                   style: TextStyle(
                                       fontSize: 15,
@@ -645,7 +648,7 @@ class Doctur extends StatelessWidget {
                                   endIndent: 5,
                                 ),
                                 Column(children: [
-                                  Text(
+                                  const Text(
                                     "Менин башым айланып жатат. \n У меня кружится голова. \n I have a spinning head. \n [ ай хэв э спинин(г) хед] \n",
                                     style: TextStyle(
                                         fontSize: 15,
@@ -673,7 +676,7 @@ class Doctur extends StatelessWidget {
                                     endIndent: 5,
                                   ),
                                   Column(children: [
-                                    Text(
+                                    const Text(
                                       "Менин тамагым ооруп жатат. \n У меня болит горло. \n I have an ache in the throat. \n [ ай хэв эн эйк ин зэ сроут ]\n ",
                                       style: TextStyle(
                                           fontSize: 15,
@@ -694,7 +697,7 @@ class Doctur extends StatelessWidget {
                                       endIndent: 5,
                                     ),
                                     Column(children: [
-                                      Text(
+                                      const Text(
                                         "Менде жөтөл күчтүү болуп жатат. \n У меня сильный кашель. \n I have a strong cough. \n [ ай хэв э строн(г) коф]\n ",
                                         style: TextStyle(
                                             fontSize: 15,
@@ -715,7 +718,7 @@ class Doctur extends StatelessWidget {
                                         endIndent: 5,
                                       ),
                                       Column(children: [
-                                        Text(
+                                        const Text(
                                           "Менин кан басымым жогору. \n у меня высокое кровяное давление. \n I have a high blood pressure. \n [ ай хэв э хай блад прэшэ]\n ",
                                           style: TextStyle(
                                               fontSize: 15,
@@ -733,7 +736,7 @@ class Doctur extends StatelessWidget {
                                         /////////////////////////////////////////////////
                                         const SizedBox(height: 10),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -752,7 +755,7 @@ class Doctur extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -762,7 +765,7 @@ class Doctur extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -778,7 +781,7 @@ class Doctur extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -797,7 +800,7 @@ class Doctur extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -807,7 +810,7 @@ class Doctur extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -823,7 +826,7 @@ class Doctur extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -842,7 +845,7 @@ class Doctur extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -852,7 +855,7 @@ class Doctur extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -868,7 +871,7 @@ class Doctur extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -887,7 +890,7 @@ class Doctur extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -897,7 +900,7 @@ class Doctur extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -913,7 +916,7 @@ class Doctur extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -932,7 +935,7 @@ class Doctur extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -942,7 +945,7 @@ class Doctur extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -958,7 +961,7 @@ class Doctur extends StatelessWidget {
                                               ]),
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -977,7 +980,7 @@ class Doctur extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -986,7 +989,7 @@ class Doctur extends StatelessWidget {
                                                           style: TextStyle(
                                                               fontSize: 15),
                                                         ))),
-                                                Column(children: [
+                                                Column(children: const [
                                                   Center(
                                                       child: Padding(
                                                           padding:
@@ -1001,7 +1004,7 @@ class Doctur extends StatelessWidget {
                                               ]),
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -1021,7 +1024,7 @@ class Doctur extends StatelessWidget {
                                             children: [
                                               TableRow(
                                                 children: [
-                                                  Center(
+                                                  const Center(
                                                       child: Padding(
                                                           padding:
                                                               EdgeInsets.all(
@@ -1031,7 +1034,7 @@ class Doctur extends StatelessWidget {
                                                             style: TextStyle(
                                                                 fontSize: 15),
                                                           ))),
-                                                  Column(children: [
+                                                  Column(children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1059,7 +1062,7 @@ class Doctur extends StatelessWidget {
                                           endIndent: 5,
                                         ),
                                         Column(children: [
-                                          Text(
+                                          const Text(
                                             " Менин алты айлык боюмда бар. \n Я на шестом месяце беременности. \n I`m six months pregnant. \n [ айм сикс манс прэгнэнт ]\n ",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -1080,7 +1083,7 @@ class Doctur extends StatelessWidget {
                                             endIndent: 5,
                                           ),
                                           Column(children: [
-                                            Text(
+                                            const Text(
                                               "Мен диабетикмин. \n Я диабетик. \n I`m diabetic. \n [ айм дайэбетик]\n ",
                                               style: TextStyle(
                                                   fontSize: 15,
@@ -1103,7 +1106,7 @@ class Doctur extends StatelessWidget {
                                               endIndent: 5,
                                             ),
                                             Column(children: [
-                                              Text(
+                                              const Text(
                                                 "Менде ... аллергия бар.\n У меня аллергия на... \n I'm allergic to... \n [ айм элэ:джик ту...] \n",
                                                 style: TextStyle(
                                                     fontSize: 15,
@@ -1127,7 +1130,7 @@ class Doctur extends StatelessWidget {
                                                 endIndent: 5,
                                               ),
                                               Column(children: [
-                                                Text(
+                                                const Text(
                                                   "Бул даарыны кандай ичем? \n Как принимать это лекарство? \n How should i taken this medicine? \n [ хау шуд ай тэйк зис медсин?] \n",
                                                   style: TextStyle(
                                                       fontSize: 15,
@@ -1159,7 +1162,7 @@ class Doctur extends StatelessWidget {
                                                   endIndent: 5,
                                                 ),
                                                 Column(children: [
-                                                  Text(
+                                                  const Text(
                                                     "Мен канча төлөйм? Жазып бериңизчи. \n Сколько с меня? Напишите, пожалуйста. \n How much must I pay? Write it down, please. \n [ хау мач маст ай пэй? райт ит даун пли:з ]\n ",
                                                     style: TextStyle(
                                                         fontSize: 15,
@@ -1183,7 +1186,7 @@ class Doctur extends StatelessWidget {
                                                     endIndent: 5,
                                                   ),
                                                   Column(children: [
-                                                    Text(
+                                                    const Text(
                                                       "Сиз мага справка бересизби? \n Вы можете выдать мне справку? \n Can you give me a doctor`s certificate? \n [ кэн ю: гив ми э доктэз сэтификэт? ]\n ",
                                                       style: TextStyle(
                                                           fontSize: 15,
@@ -1207,7 +1210,7 @@ class Doctur extends StatelessWidget {
                                                       endIndent: 5,
                                                     ),
                                                     Column(children: [
-                                                      Text(
+                                                      const Text(
                                                         "Сураныч, менин страховой компанияма квитанция (дүмүрчөк) бериңизчи. \n Дайте мне, пожалуйста, квитанцию для моей страховой компании. \n Could you give me a receipt for my medical insurance? \n [ куд ю: гив ми э риси:т фо май медик(э)л иншуэрэнс? ]\n ",
                                                         style: TextStyle(
                                                             fontSize: 15,
@@ -1228,7 +1231,7 @@ class Doctur extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1253,7 +1256,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1263,7 +1266,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1277,7 +1280,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1302,7 +1305,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1312,7 +1315,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1326,7 +1329,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1351,7 +1354,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1361,7 +1364,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1375,7 +1378,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1400,7 +1403,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1410,7 +1413,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1424,7 +1427,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1449,7 +1452,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1459,7 +1462,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1473,7 +1476,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1498,7 +1501,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1507,7 +1510,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -1520,7 +1523,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1545,7 +1548,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1554,7 +1557,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -1571,7 +1574,7 @@ class Doctur extends StatelessWidget {
                                                       ////////////////////////////////////////
 
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1596,7 +1599,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1606,7 +1609,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1620,7 +1623,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1645,7 +1648,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1655,7 +1658,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1669,7 +1672,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1694,7 +1697,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1704,7 +1707,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1718,7 +1721,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1743,7 +1746,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1753,7 +1756,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1767,7 +1770,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1792,7 +1795,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1802,7 +1805,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1816,7 +1819,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1841,7 +1844,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1850,7 +1853,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -1863,7 +1866,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1888,7 +1891,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1897,7 +1900,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -1912,7 +1915,7 @@ class Doctur extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1937,7 +1940,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1947,7 +1950,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1961,7 +1964,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1986,7 +1989,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1996,7 +1999,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2010,7 +2013,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2035,7 +2038,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2045,7 +2048,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2059,7 +2062,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2084,7 +2087,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2094,7 +2097,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2108,7 +2111,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2133,7 +2136,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2143,7 +2146,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2157,7 +2160,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2182,7 +2185,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2191,7 +2194,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -2204,7 +2207,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2229,7 +2232,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2238,7 +2241,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -2253,7 +2256,7 @@ class Doctur extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2278,7 +2281,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2288,7 +2291,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2302,7 +2305,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2327,7 +2330,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2337,7 +2340,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2351,7 +2354,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2376,7 +2379,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2386,7 +2389,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2400,7 +2403,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2425,7 +2428,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2435,7 +2438,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2449,7 +2452,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2474,7 +2477,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2484,7 +2487,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2498,7 +2501,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2523,7 +2526,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2532,7 +2535,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -2545,7 +2548,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2570,7 +2573,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2579,7 +2582,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -2594,7 +2597,7 @@ class Doctur extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2619,7 +2622,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2629,7 +2632,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2643,7 +2646,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2668,7 +2671,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2678,7 +2681,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2692,7 +2695,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2717,7 +2720,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2727,7 +2730,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2741,7 +2744,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2766,7 +2769,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2776,7 +2779,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2790,7 +2793,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2815,7 +2818,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2825,7 +2828,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2839,7 +2842,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2864,7 +2867,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2873,7 +2876,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -2886,7 +2889,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2911,7 +2914,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2920,7 +2923,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -2933,7 +2936,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2958,7 +2961,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2968,7 +2971,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2982,7 +2985,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3007,7 +3010,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -3017,7 +3020,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -3031,7 +3034,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3056,7 +3059,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -3066,7 +3069,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -3080,7 +3083,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3105,7 +3108,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -3115,7 +3118,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -3129,7 +3132,7 @@ class Doctur extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3154,7 +3157,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -3164,7 +3167,7 @@ class Doctur extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -3178,7 +3181,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3203,7 +3206,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -3212,7 +3215,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -3225,7 +3228,7 @@ class Doctur extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3250,7 +3253,7 @@ class Doctur extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -3259,7 +3262,7 @@ class Doctur extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),

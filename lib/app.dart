@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'birinchi_beti.dart';
 import 'home_page.dart';
 
 class MyApp extends StatelessWidget {

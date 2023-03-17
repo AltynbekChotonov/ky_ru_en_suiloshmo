@@ -2,18 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Satyp_aluu extends StatelessWidget {
-  Widget build(BuildContext inContext) {
+class SatypAluu extends StatelessWidget {
+  const SatypAluu({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
           centerTitle: true,
           systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
             statusBarColor: const Color(0xff751E85),
           ),
           elevation: 10.0,
-          shadowColor: Color.fromARGB(255, 255, 255, 255),
-          backgroundColor: Color.fromARGB(255, 255, 98, 0),
+          shadowColor: const Color.fromARGB(255, 255, 255, 255),
+          backgroundColor: const Color.fromARGB(255, 255, 98, 0),
           title: const Text(
             'Сатып алуу буюмдар',
             style: TextStyle(
@@ -25,7 +28,7 @@ class Satyp_aluu extends StatelessWidget {
           bottom: PreferredSize(
             preferredSize: const Size.fromHeight(1.0),
             child: Container(
-              color: Color.fromARGB(255, 255, 255, 255),
+              color: const Color.fromARGB(255, 255, 255, 255),
               height: 2,
             ),
           ),
@@ -35,7 +38,7 @@ class Satyp_aluu extends StatelessWidget {
             child: Column(children: [
               Container(height: 10),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 2, color: Colors.black),
                     bottom: BorderSide(width: 2, color: Colors.black),
@@ -44,7 +47,7 @@ class Satyp_aluu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -52,7 +55,7 @@ class Satyp_aluu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -65,7 +68,7 @@ class Satyp_aluu extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -74,7 +77,7 @@ class Satyp_aluu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -82,7 +85,7 @@ class Satyp_aluu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -95,7 +98,7 @@ class Satyp_aluu extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -104,7 +107,7 @@ class Satyp_aluu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -115,7 +118,7 @@ class Satyp_aluu extends StatelessWidget {
                         children: [
                           Center(
                               child: Padding(
-                                  padding: EdgeInsets.all(10),
+                                  padding: const EdgeInsets.all(10),
                                   child: Text(
                                     "discount \n  [дискаунт]",
                                     style: GoogleFonts.prompt(fontSize: 15),
@@ -125,7 +128,7 @@ class Satyp_aluu extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -134,7 +137,7 @@ class Satyp_aluu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -142,7 +145,7 @@ class Satyp_aluu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -155,7 +158,7 @@ class Satyp_aluu extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -164,7 +167,7 @@ class Satyp_aluu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -172,7 +175,7 @@ class Satyp_aluu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -185,7 +188,7 @@ class Satyp_aluu extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -194,7 +197,7 @@ class Satyp_aluu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -202,7 +205,7 @@ class Satyp_aluu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -224,7 +227,7 @@ class Satyp_aluu extends StatelessWidget {
                 endIndent: 5,
               ),
               Column(children: [
-                Text(
+                const Text(
                   " Арзандатуу кайсыл жерде? \n Где здесь распродажа?\n Where is the sale here? \n [уэа(р) из зэ сэйл хиэ?]\n ",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
@@ -243,7 +246,7 @@ class Satyp_aluu extends StatelessWidget {
                   endIndent: 5,
                 ),
                 Column(children: [
-                  Text(
+                  const Text(
                     "Бул канча турат? \n Сколько это стоит?\n How much is that?  \n   [ хау мач из зэт?]\n ",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
@@ -262,7 +265,7 @@ class Satyp_aluu extends StatelessWidget {
                     endIndent: 5,
                   ),
                   Column(children: [
-                    Text(
+                    const Text(
                       "Сиз арзандатасызбы? \n Вы сделаете скидку?\n Are you able to give me a discount? \n [ а: ю: эйбл ту гив ми э дискаунт? ] \n",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
@@ -282,7 +285,7 @@ class Satyp_aluu extends StatelessWidget {
                       endIndent: 5,
                     ),
                     Column(children: [
-                      Text(
+                      const Text(
                         "Сизде барбы?, Сизде болобу? \n У вас есть..? \n Do you have..? \n [ ду ю: хэв..?] \n",
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold),
@@ -309,7 +312,7 @@ class Satyp_aluu extends StatelessWidget {
                         endIndent: 5,
                       ),
                       Column(children: [
-                        Text(
+                        const Text(
                           "Сураныч, мага бериңизчи? \n Дайте мне, пожалуйста..? \n Give me, please... \n [ гив ми пли:з... ]\n ",
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.bold),
@@ -329,7 +332,7 @@ class Satyp_aluu extends StatelessWidget {
                           endIndent: 5,
                         ),
                         Column(children: [
-                          Text(
+                          const Text(
                             "Сураныч, көргөзүңүзчү? \n Покажите мене, пожалуйста..? \n Show me, please... \n [ шоу ми пли:з...]\n ",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.bold),
@@ -344,7 +347,7 @@ class Satyp_aluu extends StatelessWidget {
                           //контейнер текст
                           const SizedBox(height: 10),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -356,7 +359,7 @@ class Satyp_aluu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -364,7 +367,7 @@ class Satyp_aluu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -377,7 +380,7 @@ class Satyp_aluu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -389,7 +392,7 @@ class Satyp_aluu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -397,7 +400,7 @@ class Satyp_aluu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -410,7 +413,7 @@ class Satyp_aluu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -422,7 +425,7 @@ class Satyp_aluu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -430,7 +433,7 @@ class Satyp_aluu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -443,7 +446,7 @@ class Satyp_aluu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -455,7 +458,7 @@ class Satyp_aluu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -463,7 +466,7 @@ class Satyp_aluu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -476,7 +479,7 @@ class Satyp_aluu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -488,7 +491,7 @@ class Satyp_aluu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -496,7 +499,7 @@ class Satyp_aluu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -509,7 +512,7 @@ class Satyp_aluu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -521,7 +524,7 @@ class Satyp_aluu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -529,7 +532,7 @@ class Satyp_aluu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -542,7 +545,7 @@ class Satyp_aluu extends StatelessWidget {
                                 ]),
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -554,7 +557,7 @@ class Satyp_aluu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -562,7 +565,7 @@ class Satyp_aluu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -584,7 +587,7 @@ class Satyp_aluu extends StatelessWidget {
                             endIndent: 5,
                           ),
                           Column(children: [
-                            Text(
+                            const Text(
                               " Мага жардам бере албайсызбы? \n Не поможете мне? \n Could you help me? \n [ куд ю хелп ми?]\n ",
                               style: TextStyle(
                                   fontSize: 15, fontWeight: FontWeight.bold),
@@ -604,7 +607,7 @@ class Satyp_aluu extends StatelessWidget {
                               endIndent: 5,
                             ),
                             Column(children: [
-                              Text(
+                              const Text(
                                 "Мен жөн гана көрүп жатам. \n Я просто смотрю. \n I`m just lookihg. \n [ айм джаст лукин(г)]\n ",
                                 style: TextStyle(
                                     fontSize: 15, fontWeight: FontWeight.bold),
@@ -624,7 +627,7 @@ class Satyp_aluu extends StatelessWidget {
                                 endIndent: 5,
                               ),
                               Column(children: [
-                                Text(
+                                const Text(
                                   "Бул жерде кийип көрүүчү кана кайда? \n Где здес примерочная? \n Where is a fitting room? \n [ уэа(р) из э фитин(г) ру:м ?] \n",
                                   style: TextStyle(
                                       fontSize: 15,
@@ -645,7 +648,7 @@ class Satyp_aluu extends StatelessWidget {
                                   endIndent: 5,
                                 ),
                                 Column(children: [
-                                  Text(
+                                  const Text(
                                     "... менин өлчөмүм. \n Мой размер... \n My size is... \n [ май сайз из...] \n",
                                     style: TextStyle(
                                         fontSize: 15,
@@ -673,7 +676,7 @@ class Satyp_aluu extends StatelessWidget {
                                     endIndent: 5,
                                   ),
                                   Column(children: [
-                                    Text(
+                                    const Text(
                                       "Бул мага кичине / чоң \n Это мне мало / велико. \n It is too small / too big for me. \n [ ит из ту: смо:л / ту: биг фо: ми: ]\n ",
                                       style: TextStyle(
                                           fontSize: 15,
@@ -694,7 +697,7 @@ class Satyp_aluu extends StatelessWidget {
                                       endIndent: 5,
                                     ),
                                     Column(children: [
-                                      Text(
+                                      const Text(
                                         "Бул түс мага жарашпайт. \n Этот цвет мне не идёт. \n This colour doesn`t suit me. \n [ зис калэ дазнт сью:т ми:]\n ",
                                         style: TextStyle(
                                             fontSize: 15,
@@ -715,7 +718,7 @@ class Satyp_aluu extends StatelessWidget {
                                         endIndent: 5,
                                       ),
                                       Column(children: [
-                                        Text(
+                                        const Text(
                                           "Сизде арзаныраак бир нерсе барбы? \n У вас есть что-нибудь подешевле? \n Do you have anything cheaper? \n [ ду ю: хэв энисин(г) чи:пэ?]\n ",
                                           style: TextStyle(
                                               fontSize: 15,
@@ -733,7 +736,7 @@ class Satyp_aluu extends StatelessWidget {
                                         /////////////////////////////////////////////////
                                         const SizedBox(height: 10),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -752,7 +755,7 @@ class Satyp_aluu extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -762,7 +765,7 @@ class Satyp_aluu extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -778,7 +781,7 @@ class Satyp_aluu extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -797,7 +800,7 @@ class Satyp_aluu extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -807,7 +810,7 @@ class Satyp_aluu extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -823,7 +826,7 @@ class Satyp_aluu extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -842,7 +845,7 @@ class Satyp_aluu extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -852,7 +855,7 @@ class Satyp_aluu extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -868,7 +871,7 @@ class Satyp_aluu extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -887,7 +890,7 @@ class Satyp_aluu extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -897,7 +900,7 @@ class Satyp_aluu extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -913,7 +916,7 @@ class Satyp_aluu extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -932,7 +935,7 @@ class Satyp_aluu extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -942,7 +945,7 @@ class Satyp_aluu extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -958,7 +961,7 @@ class Satyp_aluu extends StatelessWidget {
                                               ]),
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -977,7 +980,7 @@ class Satyp_aluu extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -986,7 +989,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           style: TextStyle(
                                                               fontSize: 15),
                                                         ))),
-                                                Column(children: [
+                                                Column(children: const [
                                                   Center(
                                                       child: Padding(
                                                           padding:
@@ -1001,7 +1004,7 @@ class Satyp_aluu extends StatelessWidget {
                                               ]),
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -1021,7 +1024,7 @@ class Satyp_aluu extends StatelessWidget {
                                             children: [
                                               TableRow(
                                                 children: [
-                                                  Center(
+                                                  const Center(
                                                       child: Padding(
                                                           padding:
                                                               EdgeInsets.all(
@@ -1031,7 +1034,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             style: TextStyle(
                                                                 fontSize: 15),
                                                           ))),
-                                                  Column(children: [
+                                                  Column(children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1059,7 +1062,7 @@ class Satyp_aluu extends StatelessWidget {
                                           endIndent: 5,
                                         ),
                                         Column(children: [
-                                          Text(
+                                          const Text(
                                             " Сиз мага эмнени сунуш кыла аласыз? \n Что вы можете мне порекомендовать? \n What would you recommend me? \n [ уот вуд ю: рекэмэнд ми:?]\n ",
                                             style: TextStyle(
                                                 fontSize: 15,
@@ -1080,7 +1083,7 @@ class Satyp_aluu extends StatelessWidget {
                                             endIndent: 5,
                                           ),
                                           Column(children: [
-                                            Text(
+                                            const Text(
                                               "Мен муну алдым. \n Я это беру. \n I`ll take it. \n [ айл тэйк ит]\n ",
                                               style: TextStyle(
                                                   fontSize: 15,
@@ -1103,7 +1106,7 @@ class Satyp_aluu extends StatelessWidget {
                                               endIndent: 5,
                                             ),
                                             Column(children: [
-                                              Text(
+                                              const Text(
                                                 "Бул буюмду алмаштырсам болобу? \n Можно обменять эту вещь? \n Can i change this thing? \n [ кэн ай чейндж зис син(г)?] \n",
                                                 style: TextStyle(
                                                     fontSize: 15,
@@ -1127,7 +1130,7 @@ class Satyp_aluu extends StatelessWidget {
                                                 endIndent: 5,
                                               ),
                                               Column(children: [
-                                                Text(
+                                                const Text(
                                                   "Касса кайда? \n Гиде касса? \n Where is the pay desk? \n [ уэа(р) из зэ пэй дэск?] \n",
                                                   style: TextStyle(
                                                       fontSize: 15,
@@ -1159,7 +1162,7 @@ class Satyp_aluu extends StatelessWidget {
                                                   endIndent: 5,
                                                 ),
                                                 Column(children: [
-                                                  Text(
+                                                  const Text(
                                                     " Мен канча төлөшүм керек? \n Сколько я должен заплатить? \n How much must i pay? \n [ хау мач маст ай пэй? ]\n ",
                                                     style: TextStyle(
                                                         fontSize: 15,
@@ -1183,7 +1186,7 @@ class Satyp_aluu extends StatelessWidget {
                                                     endIndent: 5,
                                                   ),
                                                   Column(children: [
-                                                    Text(
+                                                    const Text(
                                                       "Мен насыя картасы менен төлөсөм болобу? \n Могу я заплатить кредитной картой? \n Can I use a credit card? \n [ кэн ай ю:з э кредит ка:д? ]\n ",
                                                       style: TextStyle(
                                                           fontSize: 15,
@@ -1207,7 +1210,7 @@ class Satyp_aluu extends StatelessWidget {
                                                       endIndent: 5,
                                                     ),
                                                     Column(children: [
-                                                      Text(
+                                                      const Text(
                                                         "Сураныч, белекти жасалгалоо менен бересизби. \n Пожалуйста, сделайте подарочную упаковку. \n Please, make a gift packing. \n [ пли:з мэйк э гифт пэкин(г) ]\n ",
                                                         style: TextStyle(
                                                             fontSize: 15,
@@ -1228,7 +1231,7 @@ class Satyp_aluu extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1253,7 +1256,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1263,7 +1266,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1277,7 +1280,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1302,7 +1305,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1312,7 +1315,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1326,7 +1329,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1351,7 +1354,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1361,7 +1364,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1375,7 +1378,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1400,7 +1403,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1410,7 +1413,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1424,7 +1427,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1449,7 +1452,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1459,7 +1462,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1473,7 +1476,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1498,7 +1501,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1507,7 +1510,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -1520,7 +1523,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1545,7 +1548,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1554,7 +1557,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -1571,7 +1574,7 @@ class Satyp_aluu extends StatelessWidget {
                                                       ////////////////////////////////////////
 
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1596,7 +1599,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1606,7 +1609,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1620,7 +1623,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1645,7 +1648,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1655,7 +1658,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1669,7 +1672,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1694,7 +1697,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1704,7 +1707,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1718,7 +1721,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1743,7 +1746,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1753,7 +1756,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1767,7 +1770,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1792,7 +1795,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1802,7 +1805,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1816,7 +1819,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1841,7 +1844,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1850,7 +1853,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -1863,7 +1866,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1888,7 +1891,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1897,7 +1900,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -1912,7 +1915,7 @@ class Satyp_aluu extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1937,7 +1940,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1947,7 +1950,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1961,7 +1964,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1986,7 +1989,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1996,7 +1999,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2010,7 +2013,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2035,7 +2038,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2045,7 +2048,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2059,7 +2062,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2084,7 +2087,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2094,7 +2097,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2108,7 +2111,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2133,7 +2136,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2143,7 +2146,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2157,7 +2160,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2182,7 +2185,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2191,7 +2194,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -2204,7 +2207,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2229,7 +2232,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2238,7 +2241,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -2253,7 +2256,7 @@ class Satyp_aluu extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2278,7 +2281,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2288,7 +2291,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2302,7 +2305,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2327,7 +2330,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2337,7 +2340,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2351,7 +2354,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2376,7 +2379,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2386,7 +2389,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2400,7 +2403,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2425,7 +2428,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2435,7 +2438,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2449,7 +2452,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2474,7 +2477,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2484,7 +2487,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: [
+                                                                children: const [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -2498,7 +2501,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2523,7 +2526,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2532,7 +2535,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),
@@ -2545,7 +2548,7 @@ class Satyp_aluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: TableBorder(
+                                                          border: const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2570,7 +2573,7 @@ class Satyp_aluu extends StatelessWidget {
                                                           ),
                                                           children: [
                                                             TableRow(children: [
-                                                              Center(
+                                                              const Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -2579,7 +2582,7 @@ class Satyp_aluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: [
+                                                              Column(children: const [
                                                                 Center(
                                                                     child: Padding(
                                                                         padding: EdgeInsets.all(10),

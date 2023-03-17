@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Suroolor extends StatelessWidget {
-  Widget build(BuildContext inContext) {
+  const Suroolor({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
           centerTitle: true,
           systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
             statusBarColor: const Color(0xff751E85),
           ),
           elevation: 10.0,
-          shadowColor: Color.fromARGB(255, 255, 255, 255),
-          backgroundColor: Color.fromARGB(255, 255, 98, 0),
+          shadowColor: const Color.fromARGB(255, 255, 255, 255),
+          backgroundColor: const Color.fromARGB(255, 255, 98, 0),
           title: const Text(
             'Суроолор',
             style: TextStyle(
@@ -25,7 +27,7 @@ class Suroolor extends StatelessWidget {
           bottom: PreferredSize(
             preferredSize: const Size.fromHeight(1.0),
             child: Container(
-              color: Color.fromARGB(255, 255, 255, 255),
+              color: const Color.fromARGB(255, 255, 255, 255),
               height: 2,
             ),
           ),
@@ -35,7 +37,7 @@ class Suroolor extends StatelessWidget {
             child: Column(children: [
               Container(height: 10),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 2, color: Colors.black),
                     bottom: BorderSide(width: 2, color: Colors.black),
@@ -44,7 +46,7 @@ class Suroolor extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -52,7 +54,7 @@ class Suroolor extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -65,7 +67,7 @@ class Suroolor extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -74,7 +76,7 @@ class Suroolor extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -82,7 +84,7 @@ class Suroolor extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -95,7 +97,7 @@ class Suroolor extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -104,7 +106,7 @@ class Suroolor extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -112,7 +114,7 @@ class Suroolor extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -125,7 +127,7 @@ class Suroolor extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -134,7 +136,7 @@ class Suroolor extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -142,7 +144,7 @@ class Suroolor extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -155,7 +157,7 @@ class Suroolor extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -164,7 +166,7 @@ class Suroolor extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -172,7 +174,7 @@ class Suroolor extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -185,7 +187,7 @@ class Suroolor extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -194,7 +196,7 @@ class Suroolor extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -202,7 +204,7 @@ class Suroolor extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -224,7 +226,7 @@ class Suroolor extends StatelessWidget {
                 endIndent: 5,
               ),
               Column(children: [
-                Text(
+                const Text(
                   " Who is there?     Ким бар? \n [ху: из зэа?]       Кто там? \n ",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
@@ -243,7 +245,7 @@ class Suroolor extends StatelessWidget {
                   endIndent: 5,
                 ),
                 Column(children: [
-                  Text(
+                  const Text(
                     "What has happened?      Эмне болду? \n уот хэз хэп(э)нд?          Что случилось? \n ",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
@@ -262,7 +264,7 @@ class Suroolor extends StatelessWidget {
                     endIndent: 5,
                   ),
                   Column(children: [
-                    Text(
+                    const Text(
                       "Where is the toilet?            Даараткана кайда? \n уэа(р) из зэ тойлит?        Где туалет? \n ",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
@@ -282,7 +284,7 @@ class Suroolor extends StatelessWidget {
                       endIndent: 5,
                     ),
                     Column(children: [
-                      Text(
+                      const Text(
                         "Дүкөн качан ачылат? \n Когда открывается магазин? \n When does the shop open? \n [ уэн даз зэ шоп оуп(э)н ] \n",
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold),
@@ -309,7 +311,7 @@ class Suroolor extends StatelessWidget {
                         endIndent: 5,
                       ),
                       Column(children: [
-                        Text(
+                        const Text(
                           "Бул автобуз кайда барат? \n Куда идёт этот автобус? \n Where does this bus go to? \n [ уэа даз зис бас гоу ту? ]\n ",
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.bold),
@@ -329,7 +331,7 @@ class Suroolor extends StatelessWidget {
                           endIndent: 5,
                         ),
                         Column(children: [
-                          Text(
+                          const Text(
                             "Сиз кайдан келдиңиз? \n Откуда вы приехали? \n I Where have you come from?  \n [ уэа хэв ю кам фром? ]\n ",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.bold),
@@ -344,7 +346,7 @@ class Suroolor extends StatelessWidget {
                           //контейнер текст
                           const SizedBox(height: 10),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 1, color: Colors.black),
@@ -356,7 +358,7 @@ class Suroolor extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -364,7 +366,7 @@ class Suroolor extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -377,7 +379,7 @@ class Suroolor extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 1, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -389,7 +391,7 @@ class Suroolor extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -397,7 +399,7 @@ class Suroolor extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -410,7 +412,7 @@ class Suroolor extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -422,7 +424,7 @@ class Suroolor extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -430,7 +432,7 @@ class Suroolor extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -443,7 +445,7 @@ class Suroolor extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -455,7 +457,7 @@ class Suroolor extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -463,7 +465,7 @@ class Suroolor extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -476,7 +478,7 @@ class Suroolor extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -488,7 +490,7 @@ class Suroolor extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -496,7 +498,7 @@ class Suroolor extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -509,7 +511,7 @@ class Suroolor extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -521,7 +523,7 @@ class Suroolor extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -529,7 +531,7 @@ class Suroolor extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -542,7 +544,7 @@ class Suroolor extends StatelessWidget {
                                 ]),
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -554,7 +556,7 @@ class Suroolor extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -562,7 +564,7 @@ class Suroolor extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -584,7 +586,7 @@ class Suroolor extends StatelessWidget {
                             endIndent: 5,
                           ),
                           Column(children: [
-                            Text(
+                            const Text(
                               " Бул канча турат? \n Сколько это стоит? \n How much does it cost? \n [хау мач даз ит кост? ]\n ",
                               style: TextStyle(
                                   fontSize: 15, fontWeight: FontWeight.bold),
@@ -604,7 +606,7 @@ class Suroolor extends StatelessWidget {
                               endIndent: 5,
                             ),
                             Column(children: [
-                              Text(
+                              const Text(
                                 "Саат канча болду? \n Который час? \n What time is it?  \n [ уот тайм из ит?]\n ",
                                 style: TextStyle(
                                     fontSize: 15, fontWeight: FontWeight.bold),
@@ -624,7 +626,7 @@ class Suroolor extends StatelessWidget {
                                 endIndent: 5,
                               ),
                               Column(children: [
-                                Text(
+                                const Text(
                                   "Ал жакка кантип жетсе болот? \n Как туда добраться? \n How can i get there? \n [ хау кэн ай гет зэа?] \n",
                                   style: TextStyle(
                                       fontSize: 15,
@@ -645,7 +647,7 @@ class Suroolor extends StatelessWidget {
                                   endIndent: 5,
                                 ),
                                 Column(children: [
-                                  Text(
+                                  const Text(
                                     "Бул кайсыл станция? \n Какой (ая) это станция? \n What station is this? \n [ уот стэйш(э)н из зис?] \n",
                                     style: TextStyle(
                                         fontSize: 15,
@@ -673,7 +675,7 @@ class Suroolor extends StatelessWidget {
                                     endIndent: 5,
                                   ),
                                   Column(children: [
-                                    Text(
+                                    const Text(
                                       "... чейин автобустар бат-бат жүрүшөбү? \n Как часто автобусы ходят в..? \n How often do the buses go to..? \n [ хау офэн ду: зэ басиз гоу ту..? ]\n ",
                                       style: TextStyle(
                                           fontSize: 15,
@@ -694,7 +696,7 @@ class Suroolor extends StatelessWidget {
                                       endIndent: 5,
                                     ),
                                     Column(children: [
-                                      Text(
+                                      const Text(
                                         "Сиз мага жардам бере албайсызбы? \n Не могли бы вы мне помочь? \n Could you help me? \n [ куд ю хелп ми? ]\n ",
                                         style: TextStyle(
                                             fontSize: 15,
@@ -714,21 +716,21 @@ class Suroolor extends StatelessWidget {
                                         indent: 5,
                                         endIndent: 5,
                                       ),
-                                      Column(children: [
+                                      Column(children: const [
                                         Text(
                                           "Сиз мени түшүнүп жатасызбы? \n Вы меня понимаете? \n Do you understand me? \n [ ду: ю андэстэнд ми? ]\n ",
                                           style: TextStyle(
                                               fontSize: 15,
                                               fontWeight: FontWeight.bold),
                                         ),
-                                        const Divider(
+                                        Divider(
                                           color: Color.fromARGB(255, 0, 0, 0),
                                           height: 0,
                                           thickness: 2,
                                           indent: 5,
                                           endIndent: 5,
                                         ),
-                                        const SizedBox(height: 10),
+                                        SizedBox(height: 10),
                                       ]),
                                     ]),
                                   ])

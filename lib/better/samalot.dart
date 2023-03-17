@@ -2,17 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class Samalot extends StatelessWidget {
-  Widget build(BuildContext inContext) {
+  const Samalot({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
           centerTitle: true,
           systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
             statusBarColor: const Color(0xff751E85),
           ),
           elevation: 10.0,
-          shadowColor: Color.fromARGB(255, 255, 255, 255),
-          backgroundColor: Color.fromARGB(255, 255, 98, 0),
+          shadowColor: const Color.fromARGB(255, 255, 255, 255),
+          backgroundColor: const Color.fromARGB(255, 255, 98, 0),
           title: const Text(
             'Самолёт',
             style: TextStyle(
@@ -24,7 +27,7 @@ class Samalot extends StatelessWidget {
           bottom: PreferredSize(
             preferredSize: const Size.fromHeight(1.0),
             child: Container(
-              color: Color.fromARGB(255, 255, 255, 255),
+              color: const Color.fromARGB(255, 255, 255, 255),
               height: 2,
             ),
           ),
@@ -34,7 +37,7 @@ class Samalot extends StatelessWidget {
             child: Column(children: [
               Container(height: 10),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 2, color: Colors.black),
                     bottom: BorderSide(width: 2, color: Colors.black),
@@ -43,7 +46,7 @@ class Samalot extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -51,7 +54,7 @@ class Samalot extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -64,7 +67,7 @@ class Samalot extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -73,7 +76,7 @@ class Samalot extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -81,7 +84,7 @@ class Samalot extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -94,7 +97,7 @@ class Samalot extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -103,7 +106,7 @@ class Samalot extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -111,7 +114,7 @@ class Samalot extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -124,7 +127,7 @@ class Samalot extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -133,7 +136,7 @@ class Samalot extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -141,7 +144,7 @@ class Samalot extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -154,7 +157,7 @@ class Samalot extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -163,7 +166,7 @@ class Samalot extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -171,7 +174,7 @@ class Samalot extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -184,7 +187,7 @@ class Samalot extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -193,7 +196,7 @@ class Samalot extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -201,7 +204,7 @@ class Samalot extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -222,7 +225,7 @@ class Samalot extends StatelessWidget {
                 endIndent: 5,
               ),
               Column(children: [
-                Text(
+                const Text(
                   "Жаздык берип коёсузбу.\n Дайте,пожалуйста,подушку.\n Please,give me a pillow. \n [ пли:з гив ми э пилоу.] \n",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
@@ -241,7 +244,7 @@ class Samalot extends StatelessWidget {
                   endIndent: 5,
                 ),
                 Column(children: [
-                  Text(
+                  const Text(
                     "Салафан баштык бериңизчи. \n Принесите,пожалуйста,пакетик.\n Bring me,please,paper bag.  \n   [ брин(г)ми пли:з э пэйпэ бэг.] \n",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
@@ -260,7 +263,7 @@ class Samalot extends StatelessWidget {
                     endIndent: 5,
                   ),
                   Column(children: [
-                    Text(
+                    const Text(
                       "Менин табым жок. Жардам керек.\n Мне плохо. Помогите мне, пожалуйста.\n I m not well. Help me, please. \n [ айм нот уэл.хелп ми пли:з. ]\n ",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
@@ -280,7 +283,7 @@ class Samalot extends StatelessWidget {
                       endIndent: 5,
                     ),
                     Column(children: [
-                      Text(
+                      const Text(
                         "Мага бел кур тагынганга жардам бериңизчи. \n Помагите мне,пожалуйста,пристегнуть ремни.\n Help me,please,to fasten the belts.\n [ хелп ми пли:з ту фас:н зэ белтс.]\n ",
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold),
@@ -307,7 +310,7 @@ class Samalot extends StatelessWidget {
                         endIndent: 5,
                       ),
                       Column(children: [
-                        Text(
+                        const Text(
                           "Мага орундукту чалкалатканга Жардам бериңиз.\n Помогите мне, пожалуйста, откинуть кресло.\n  Help me, please, to tip up the seat. \n [ хелп ми пли:з ту тип ап зэ си:т. ] \n",
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.bold),
@@ -327,7 +330,7 @@ class Samalot extends StatelessWidget {
                           endIndent: 5,
                         ),
                         Column(children: [
-                          Text(
+                          const Text(
                             "Желдеткичти кантип иштетем? \n Как включить вентилятор? \n How do i switch on the air vent? \n [ хау ду ай суич он зи эа вент?]\n ",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.bold),
@@ -341,7 +344,7 @@ class Samalot extends StatelessWidget {
                           ),
                           const SizedBox(height: 10),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -353,7 +356,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -361,7 +364,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -374,7 +377,7 @@ class Samalot extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -386,7 +389,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -394,7 +397,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -407,7 +410,7 @@ class Samalot extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -419,7 +422,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -427,7 +430,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -440,7 +443,7 @@ class Samalot extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -452,7 +455,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -460,7 +463,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -473,7 +476,7 @@ class Samalot extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -485,7 +488,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -493,7 +496,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -506,7 +509,7 @@ class Samalot extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 1, color: Colors.black),
@@ -518,7 +521,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -526,7 +529,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -539,7 +542,7 @@ class Samalot extends StatelessWidget {
                                 ]),
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -551,7 +554,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -559,7 +562,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -572,7 +575,7 @@ class Samalot extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -584,7 +587,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -592,7 +595,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -605,7 +608,7 @@ class Samalot extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 1, color: Colors.black),
@@ -617,7 +620,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -625,7 +628,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -638,7 +641,7 @@ class Samalot extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 1, color: Colors.black),
@@ -650,7 +653,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -658,7 +661,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -671,7 +674,7 @@ class Samalot extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -683,7 +686,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -691,7 +694,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -704,7 +707,7 @@ class Samalot extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -716,7 +719,7 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -724,7 +727,7 @@ class Samalot extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -737,7 +740,7 @@ class Samalot extends StatelessWidget {
                                 ]),
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -749,14 +752,14 @@ class Samalot extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
                                             "аргасыз чыгуучу эшик \n аварийный выход ",
                                             style: TextStyle(fontSize: 15),
                                           ))),
-                                  Column(children: [
+                                  Column(children: const [
                                     Center(
                                         child: Padding(
                                             padding: EdgeInsets.all(10),
@@ -768,7 +771,7 @@ class Samalot extends StatelessWidget {
                                 ]),
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -781,14 +784,14 @@ class Samalot extends StatelessWidget {
                               children: [
                                 TableRow(
                                   children: [
-                                    Center(
+                                    const Center(
                                         child: Padding(
                                             padding: EdgeInsets.all(10),
                                             child: Text(
                                               "куткаруучу күрмө \n спасательный жилет ",
                                               style: TextStyle(fontSize: 15),
                                             ))),
-                                    Column(children: [
+                                    Column(children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),

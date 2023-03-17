@@ -1,4 +1,4 @@
-# kyrgyzcha_oruscha_anglische_suiloshmo
+# ky_ru_en_suiloshmo
 
 A new Flutter project.
 

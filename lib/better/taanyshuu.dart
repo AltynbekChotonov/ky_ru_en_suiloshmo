@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Taanyshuu extends StatelessWidget {
-  Widget build(BuildContext inContext) {
+  const Taanyshuu({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
           centerTitle: true,
           systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
             statusBarColor: const Color(0xff751E85),
           ),
           elevation: 10.0,
-          shadowColor: Color.fromARGB(255, 255, 255, 255),
-          backgroundColor: Color.fromARGB(255, 255, 98, 0),
+          shadowColor: const Color.fromARGB(255, 255, 255, 255),
+          backgroundColor: const Color.fromARGB(255, 255, 98, 0),
           title: const Text(
             'Таанышуу',
             style: TextStyle(
@@ -25,7 +27,7 @@ class Taanyshuu extends StatelessWidget {
           bottom: PreferredSize(
             preferredSize: const Size.fromHeight(1.0),
             child: Container(
-              color: Color.fromARGB(255, 255, 255, 255),
+              color: const Color.fromARGB(255, 255, 255, 255),
               height: 2,
             ),
           ),
@@ -35,7 +37,7 @@ class Taanyshuu extends StatelessWidget {
             child: Column(children: [
               Container(height: 10),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 2, color: Colors.black),
                     bottom: BorderSide(width: 2, color: Colors.black),
@@ -44,7 +46,7 @@ class Taanyshuu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -52,7 +54,7 @@ class Taanyshuu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -65,7 +67,7 @@ class Taanyshuu extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -74,7 +76,7 @@ class Taanyshuu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -82,7 +84,7 @@ class Taanyshuu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -95,7 +97,7 @@ class Taanyshuu extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -104,7 +106,7 @@ class Taanyshuu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -112,7 +114,7 @@ class Taanyshuu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -125,7 +127,7 @@ class Taanyshuu extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -134,7 +136,7 @@ class Taanyshuu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -142,7 +144,7 @@ class Taanyshuu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -155,7 +157,7 @@ class Taanyshuu extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -164,7 +166,7 @@ class Taanyshuu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -172,7 +174,7 @@ class Taanyshuu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -185,7 +187,7 @@ class Taanyshuu extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -194,7 +196,7 @@ class Taanyshuu extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -202,7 +204,7 @@ class Taanyshuu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -223,7 +225,7 @@ class Taanyshuu extends StatelessWidget {
                 endIndent: 5,
               ),
               Column(children: [
-                Text(
+                const Text(
                   " My name is...        Менин атым...\n [май нэйм из..]    Меня зовут... \n ",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
@@ -242,7 +244,7 @@ class Taanyshuu extends StatelessWidget {
                   endIndent: 5,
                 ),
                 Column(children: [
-                  Text(
+                  const Text(
                     " I`m from Russia.      Мен Россиядан келдим. \n [айм фром раша]    Я приехал из России. \n ",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
@@ -261,7 +263,7 @@ class Taanyshuu extends StatelessWidget {
                     endIndent: 5,
                   ),
                   Column(children: [
-                    Text(
+                    const Text(
                       "Сиз менен таанышканыма кубанычтуумун. \n Рад с вами познакомиться. \n Nice to meet you. \n [ найс ту ми:т ю: ] \n",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
@@ -281,7 +283,7 @@ class Taanyshuu extends StatelessWidget {
                       endIndent: 5,
                     ),
                     Column(children: [
-                      Text(
+                      const Text(
                         "Мен үйлөнгөм./ Мен турмушка чыккам. \n Я женат/замужем.\n I am married.\n [ ай эм мэрид ] \n ",
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold),
@@ -308,7 +310,7 @@ class Taanyshuu extends StatelessWidget {
                         endIndent: 5,
                       ),
                       Column(children: [
-                        Text(
+                        const Text(
                           " I am divorced.       Мен ажырашкам. \n [ай эм диво:ст]     Я в разводе. \n ",
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.bold),
@@ -328,7 +330,7 @@ class Taanyshuu extends StatelessWidget {
                           endIndent: 5,
                         ),
                         Column(children: [
-                          Text(
+                          const Text(
                             " I have two children.       Менин эки балам бар. \n [ай хэв ту: чилдрэн]     У меня двое детей. \n ",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.bold),
@@ -344,7 +346,7 @@ class Taanyshuu extends StatelessWidget {
                           ///////////////////////////////////////
                           const SizedBox(height: 10),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -356,7 +358,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -364,7 +366,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -377,7 +379,7 @@ class Taanyshuu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -389,7 +391,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -397,7 +399,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -410,7 +412,7 @@ class Taanyshuu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -422,7 +424,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -430,7 +432,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -443,7 +445,7 @@ class Taanyshuu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -455,7 +457,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -463,7 +465,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -476,7 +478,7 @@ class Taanyshuu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -488,7 +490,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -496,7 +498,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -509,7 +511,7 @@ class Taanyshuu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 1, color: Colors.black),
@@ -521,7 +523,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -529,7 +531,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -542,7 +544,7 @@ class Taanyshuu extends StatelessWidget {
                                 ]),
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -554,7 +556,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -562,7 +564,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -578,7 +580,7 @@ class Taanyshuu extends StatelessWidget {
                           //////////////////////////////////////
                           //ар бир катар тексттер 7 бөлүктөн турат
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -590,7 +592,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -598,7 +600,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -611,7 +613,7 @@ class Taanyshuu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 1, color: Colors.black),
@@ -623,7 +625,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -631,7 +633,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -644,7 +646,7 @@ class Taanyshuu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -656,7 +658,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -664,7 +666,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -677,7 +679,7 @@ class Taanyshuu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -689,7 +691,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -697,7 +699,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -710,7 +712,7 @@ class Taanyshuu extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -722,7 +724,7 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -730,7 +732,7 @@ class Taanyshuu extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -743,7 +745,7 @@ class Taanyshuu extends StatelessWidget {
                                 ]),
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -755,14 +757,14 @@ class Taanyshuu extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
                                             "небере \n внучка ",
                                             style: TextStyle(fontSize: 15),
                                           ))),
-                                  Column(children: [
+                                  Column(children: const [
                                     Center(
                                         child: Padding(
                                             padding: EdgeInsets.all(10),
@@ -774,7 +776,7 @@ class Taanyshuu extends StatelessWidget {
                                 ]),
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -787,14 +789,14 @@ class Taanyshuu extends StatelessWidget {
                               children: [
                                 TableRow(
                                   children: [
-                                    Center(
+                                    const Center(
                                         child: Padding(
                                             padding: EdgeInsets.all(10),
                                             child: Text(
                                               "бойдок \n не женат/не замужем ",
                                               style: TextStyle(fontSize: 15),
                                             ))),
-                                    Column(children: [
+                                    Column(children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),

@@ -3,17 +3,20 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Avtobus extends StatelessWidget {
-  Widget build(BuildContext inContext) {
+  const Avtobus({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
           centerTitle: true,
           systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
             statusBarColor: const Color(0xff751E85),
           ),
           elevation: 10.0,
-          shadowColor: Color.fromARGB(255, 255, 255, 255),
-          backgroundColor: Color.fromARGB(255, 255, 98, 0),
+          shadowColor: const Color.fromARGB(255, 255, 255, 255),
+          backgroundColor: const Color.fromARGB(255, 255, 98, 0),
           title: const Text(
             'Автобус',
             style: TextStyle(
@@ -25,7 +28,7 @@ class Avtobus extends StatelessWidget {
           bottom: PreferredSize(
             preferredSize: const Size.fromHeight(1.0),
             child: Container(
-              color: Color.fromARGB(255, 255, 255, 255),
+              color: const Color.fromARGB(255, 255, 255, 255),
               height: 2,
             ),
           ),
@@ -35,7 +38,7 @@ class Avtobus extends StatelessWidget {
             child: Column(children: [
               Container(height: 10),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 2, color: Colors.black),
                     bottom: BorderSide(width: 2, color: Colors.black),
@@ -44,7 +47,7 @@ class Avtobus extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -52,7 +55,7 @@ class Avtobus extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -65,7 +68,7 @@ class Avtobus extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -74,7 +77,7 @@ class Avtobus extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -82,7 +85,7 @@ class Avtobus extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -95,7 +98,7 @@ class Avtobus extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -104,7 +107,7 @@ class Avtobus extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -115,7 +118,7 @@ class Avtobus extends StatelessWidget {
                         children: [
                           Center(
                               child: Padding(
-                                  padding: EdgeInsets.all(10),
+                                  padding: const EdgeInsets.all(10),
                                   child: Text(
                                     "fare  \n  [ фэа]",
                                     style: GoogleFonts.prompt(fontSize: 15),
@@ -125,7 +128,7 @@ class Avtobus extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -134,7 +137,7 @@ class Avtobus extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -142,7 +145,7 @@ class Avtobus extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -155,7 +158,7 @@ class Avtobus extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -164,7 +167,7 @@ class Avtobus extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -172,7 +175,7 @@ class Avtobus extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -185,7 +188,7 @@ class Avtobus extends StatelessWidget {
                     ])
                   ]),
               Table(
-                  border: TableBorder(
+                  border: const TableBorder(
                     verticalInside: BorderSide(width: 2, color: Colors.black),
                     top: BorderSide(width: 0, color: Colors.black),
                     bottom: BorderSide(width: 1, color: Colors.black),
@@ -194,7 +197,7 @@ class Avtobus extends StatelessWidget {
                   ),
                   children: [
                     TableRow(children: [
-                      Center(
+                      const Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -202,7 +205,7 @@ class Avtobus extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: [
+                        children: const [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -224,7 +227,7 @@ class Avtobus extends StatelessWidget {
                 endIndent: 5,
               ),
               Column(children: [
-                Text(
+                const Text(
                   " Автобустун жакын аялдамасы кайда? \n Где ближайшая остановка автобуса? \n Where is the nearest bus stop? \n [уэа(р) из зэ ниэрэст бас стоп?]\n ",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
@@ -263,7 +266,7 @@ class Avtobus extends StatelessWidget {
                     endIndent: 5,
                   ),
                   Column(children: [
-                    Text(
+                    const Text(
                       "Ал жерге чейин жол кире канча? \n Сколько стоит проезд до..?\n What is the fare to..? \n [ уот из зэ фэа ту..? ] \n",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
@@ -283,7 +286,7 @@ class Avtobus extends StatelessWidget {
                       endIndent: 5,
                     ),
                     Column(children: [
-                      Text(
+                      const Text(
                         "Мага бир билет бериңизчи. \n Дайте мне, пожалуйста, один билет.\n Give me, please, one ticket.\n [ гив ми пли:з уан тикит.] \n",
                         style: TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold),
@@ -310,7 +313,7 @@ class Avtobus extends StatelessWidget {
                         endIndent: 5,
                       ),
                       Column(children: [
-                        Text(
+                        const Text(
                           "Мен ал жерге канча аялдама өтүшүм керек? \n Сколько отановок мне нужно проехать до..?\n  How many stops must i ride through to..? \n [ хау мэни стопс маст ай райд сру: ту..? ]\n ",
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.bold),
@@ -330,7 +333,7 @@ class Avtobus extends StatelessWidget {
                           endIndent: 5,
                         ),
                         Column(children: [
-                          Text(
+                          const Text(
                             "Кийинки аялдама кандай? \n Какая следующая остановка? \n What is the next stop? \n [ уот из зэ нэкст стоп?]\n ",
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.bold),
@@ -345,7 +348,7 @@ class Avtobus extends StatelessWidget {
                           //контейнер текст
                           const SizedBox(height: 10),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -359,14 +362,14 @@ class Avtobus extends StatelessWidget {
                                 TableRow(children: [
                                   Center(
                                       child: Padding(
-                                          padding: EdgeInsets.all(10),
+                                          padding: const EdgeInsets.all(10),
                                           child: Text(
                                             "орун \n место ",
                                             style: GoogleFonts.prompt(
                                                 fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -379,7 +382,7 @@ class Avtobus extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -391,7 +394,7 @@ class Avtobus extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -399,7 +402,7 @@ class Avtobus extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -412,7 +415,7 @@ class Avtobus extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -426,14 +429,14 @@ class Avtobus extends StatelessWidget {
                                 TableRow(children: [
                                   Center(
                                       child: Padding(
-                                          padding: EdgeInsets.all(10),
+                                          padding: const EdgeInsets.all(10),
                                           child: Text(
                                             "чыгат \n выходить ",
                                             style: GoogleFonts.prompt(
                                                 fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -446,7 +449,7 @@ class Avtobus extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -458,7 +461,7 @@ class Avtobus extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -466,7 +469,7 @@ class Avtobus extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -479,7 +482,7 @@ class Avtobus extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 0, color: Colors.black),
@@ -491,7 +494,7 @@ class Avtobus extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -499,7 +502,7 @@ class Avtobus extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -512,7 +515,7 @@ class Avtobus extends StatelessWidget {
                                 ])
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -524,7 +527,7 @@ class Avtobus extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -532,7 +535,7 @@ class Avtobus extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: [
+                                    children: const [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -545,7 +548,7 @@ class Avtobus extends StatelessWidget {
                                 ]),
                               ]),
                           Table(
-                              border: TableBorder(
+                              border: const TableBorder(
                                 verticalInside:
                                     BorderSide(width: 2, color: Colors.black),
                                 top: BorderSide(width: 2, color: Colors.black),
@@ -557,7 +560,7 @@ class Avtobus extends StatelessWidget {
                               ),
                               children: [
                                 TableRow(children: [
-                                  Center(
+                                  const Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -568,7 +571,7 @@ class Avtobus extends StatelessWidget {
                                     children: [
                                       Center(
                                           child: Padding(
-                                              padding: EdgeInsets.all(10),
+                                              padding: const EdgeInsets.all(10),
                                               child: Text(
                                                 "luggage compartment \n[лагидж кэмпа:тмэнт]",
                                                 style: GoogleFonts.prompt(
@@ -588,7 +591,7 @@ class Avtobus extends StatelessWidget {
                             endIndent: 5,
                           ),
                           Column(children: [
-                            Text(
+                            const Text(
                               " Бул орун бошпу? \n Это место свободно? \n Is this place vacant? \n [из зис плэйс вэйк(э)нт?]\n ",
                               style: TextStyle(
                                   fontSize: 15, fontWeight: FontWeight.bold),
@@ -608,7 +611,7 @@ class Avtobus extends StatelessWidget {
                               endIndent: 5,
                             ),
                             Column(children: [
-                              Text(
+                              const Text(
                                 "Өтүүгө мүмкүн бекен? \n Разрешите пройти? \n Let me pass?  \n [ лет ми па:с?]\n ",
                                 style: TextStyle(
                                     fontSize: 15, fontWeight: FontWeight.bold),
@@ -628,7 +631,7 @@ class Avtobus extends StatelessWidget {
                                 endIndent: 5,
                               ),
                               Column(children: [
-                                Text(
+                                const Text(
                                   "Сиз түшөсүзбү? \n Вы выходите? \n Are you getting off?  \n [ а:ю: гетин(г) оф?] \n",
                                   style: TextStyle(
                                       fontSize: 15,
@@ -649,7 +652,7 @@ class Avtobus extends StatelessWidget {
                                   endIndent: 5,
                                 ),
                                 Column(children: [
-                                  Text(
+                                  const Text(
                                     "Автовокзал кайда болду экен? \n Гиде находится автовокзал? \n Where is the coach station? \n [ уэа(р) из зэ коуч стэйш(э)н?] \n",
                                     style: TextStyle(
                                         fontSize: 15,
@@ -677,7 +680,7 @@ class Avtobus extends StatelessWidget {
                                     endIndent: 5,
                                   ),
                                   Column(children: [
-                                    Text(
+                                    const Text(
                                       "Касса кайда? \n Где касса? \n Where is a ticket window? \n [ уэа(р) из э тикит уиндоу? ]\n ",
                                       style: TextStyle(
                                           fontSize: 15,
@@ -698,7 +701,7 @@ class Avtobus extends StatelessWidget {
                                       endIndent: 5,
                                     ),
                                     Column(children: [
-                                      Text(
+                                      const Text(
                                         "Менин автобусум кайсыл жерден кетет? \n От какой стойки отправляется мой автобус? \n From what stand docs my bus go? \n [ фром уот стенд даз май бас гоу?]\n ",
                                         style: TextStyle(
                                             fontSize: 15,
@@ -719,7 +722,7 @@ class Avtobus extends StatelessWidget {
                                         endIndent: 5,
                                       ),
                                       Column(children: [
-                                        Text(
+                                        const Text(
                                           "Мага жардамдашыңыз, оокаттарымды жүк бөлмөсүнө коюшуп. \n Пожалуйста, помогите мне положить вещи в багажный отсек. \n Please, help me to put my things into a luggage compartment. \n [ пли:з хелп ми ту пут май сингз инту э лагидж кэмпа:тмэнт. ]\n ",
                                           style: TextStyle(
                                               fontSize: 15,
@@ -734,7 +737,7 @@ class Avtobus extends StatelessWidget {
                                         ),
                                         const SizedBox(height: 10),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -753,7 +756,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -763,7 +766,7 @@ class Avtobus extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -779,7 +782,7 @@ class Avtobus extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -798,7 +801,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -808,7 +811,7 @@ class Avtobus extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -825,7 +828,7 @@ class Avtobus extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -844,7 +847,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -854,7 +857,7 @@ class Avtobus extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -870,7 +873,7 @@ class Avtobus extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -889,7 +892,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -899,7 +902,7 @@ class Avtobus extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -915,7 +918,7 @@ class Avtobus extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -934,7 +937,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -944,7 +947,7 @@ class Avtobus extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -960,7 +963,7 @@ class Avtobus extends StatelessWidget {
                                               ]),
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -979,7 +982,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -988,7 +991,7 @@ class Avtobus extends StatelessWidget {
                                                           style: TextStyle(
                                                               fontSize: 15),
                                                         ))),
-                                                Column(children: [
+                                                Column(children: const [
                                                   Center(
                                                       child: Padding(
                                                           padding:
@@ -1003,7 +1006,7 @@ class Avtobus extends StatelessWidget {
                                               ]),
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -1023,7 +1026,7 @@ class Avtobus extends StatelessWidget {
                                             children: [
                                               TableRow(
                                                 children: [
-                                                  Center(
+                                                  const Center(
                                                       child: Padding(
                                                           padding:
                                                               EdgeInsets.all(
@@ -1033,7 +1036,7 @@ class Avtobus extends StatelessWidget {
                                                             style: TextStyle(
                                                                 fontSize: 15),
                                                           ))),
-                                                  Column(children: [
+                                                  Column(children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1050,7 +1053,7 @@ class Avtobus extends StatelessWidget {
                                             ]),
                                         //////////////
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -1069,7 +1072,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1079,7 +1082,7 @@ class Avtobus extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1095,7 +1098,7 @@ class Avtobus extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -1114,7 +1117,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1124,7 +1127,7 @@ class Avtobus extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1141,7 +1144,7 @@ class Avtobus extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -1160,7 +1163,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1170,7 +1173,7 @@ class Avtobus extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1186,7 +1189,7 @@ class Avtobus extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -1205,7 +1208,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1215,7 +1218,7 @@ class Avtobus extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1231,7 +1234,7 @@ class Avtobus extends StatelessWidget {
                                               ])
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -1250,7 +1253,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1260,7 +1263,7 @@ class Avtobus extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: [
+                                                  children: const [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1276,7 +1279,7 @@ class Avtobus extends StatelessWidget {
                                               ]),
                                             ]),
                                         Table(
-                                            border: TableBorder(
+                                            border: const TableBorder(
                                               verticalInside: BorderSide(
                                                   width: 2,
                                                   color: Colors.black),
@@ -1295,7 +1298,7 @@ class Avtobus extends StatelessWidget {
                                             ),
                                             children: [
                                               TableRow(children: [
-                                                Center(
+                                                const Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1304,7 +1307,7 @@ class Avtobus extends StatelessWidget {
                                                           style: TextStyle(
                                                               fontSize: 15),
                                                         ))),
-                                                Column(children: [
+                                                Column(children: const [
                                                   Center(
                                                       child: Padding(
                                                           padding:
