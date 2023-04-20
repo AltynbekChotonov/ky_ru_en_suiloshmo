@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ky_ru_en_suiloshmo">
+    package="com.altynbek.ky_ru_en_suiloshmo">
     <!-- INTERNET -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <!-- INTERNET -->
@@ -20,7 +20,7 @@
     </queries>
    <!-- url launcher -->
    <application
-        android:label="ky_ru_en_suiloshmo"
+        android:label="Language Trainer"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
