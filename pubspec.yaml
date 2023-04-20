@@ -16,7 +16,7 @@ dependencies:
   get: ^4.1.4
   font_awesome_flutter: ^9.1.0
   url_launcher: ^6.0.17
-  flutter_native_splash: ^2.2.11
+  # flutter_native_splash: ^2.2.11
   #convex_bottom_bar: ^2.0.3
 
 dev_dependencies:
