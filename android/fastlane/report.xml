@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000192">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: Switch to android set_full_version lane" time="8.9e-05">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: flutter_version" time="0.00079">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: android_set_version_name" time="0.001342">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: android_set_version_code" time="0.000654">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: clean bundle" time="0.880363">
+        
+          <failure message="/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:46:in `block (2 levels) in parsing_binding'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run'&#10;/Users/eldiiar/.gem/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/Users/eldiiar/.gem/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/Users/eldiiar/.gem/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!'&#10;/Users/eldiiar/.gem/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/commands_generator.rb:354:in `run'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/commands_generator.rb:43:in `start'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off'&#10;/Users/eldiiar/.gem/gems/fastlane-2.212.2/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/eldiiar/.gem/bin/fastlane:23:in `load'&#10;/Users/eldiiar/.gem/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/lib/bundler/cli/exec.rb:58:in `load'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/lib/bundler/cli/exec.rb:58:in `kernel_load'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/lib/bundler/cli/exec.rb:23:in `run'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/lib/bundler/cli.rb:492:in `exec'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/lib/bundler/cli.rb:34:in `dispatch'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/lib/bundler/cli.rb:28:in `start'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/exe/bundle:45:in `block in &lt;top (required)&gt;'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/lib/bundler/friendly_errors.rb:117:in `with_friendly_errors'&#10;/Users/eldiiar/.gem/gems/bundler-2.4.12/exe/bundle:33:in `&lt;top (required)&gt;'&#10;/Users/eldiiar/.gem/bin/bundle:23:in `load'&#10;/Users/eldiiar/.gem/bin/bundle:23:in `&lt;main&gt;'&#10;&#10;Exit status of command '/Users/eldiiar/Desktop/test/ky_ru_en_suiloshmo/android/gradlew clean bundle -p .' was 1 instead of 0.&#10;&#10;FAILURE: Build failed with an exception.&#10;&#10;* Where:&#10;Build file '/Users/eldiiar/Desktop/test/ky_ru_en_suiloshmo/android/build.gradle' line: 26&#10;&#10;* What went wrong:&#10;A problem occurred evaluating root project 'android'.&#10;&gt; A problem occurred configuring project ':app'.&#10;   &gt; Could not open proj generic class cache for build file '/Users/eldiiar/Desktop/test/ky_ru_en_suiloshmo/android/app/build.gradle' (/Users/eldiiar/.gradle/caches/7.5/scripts/abl7v2ffq0htr7fjxlylnh5h).&#10;      &gt; BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 64&#10;&#10;* Try:&#10;&gt; Run with --stacktrace option to get the stack trace.&#10;&gt; Run with --info or --debug option to get more log output.&#10;&gt; Run with --scan to get full insights.&#10;&#10;* Get more help at https://help.gradle.org&#10;&#10;BUILD FAILED in 407ms&#10;" />
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
