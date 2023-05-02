@@ -23,6 +23,9 @@ dev_dependencies:
   flutter_lints:
   flutter_test:
     sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  test: ^1.22.0  
   flutter_native_splash: ^2.2.11
 
 flutter_native_splash:
