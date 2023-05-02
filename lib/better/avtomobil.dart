@@ -1232,7 +1232,8 @@ class Avtomobil extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1281,7 +1282,8 @@ class Avtomobil extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1330,7 +1332,8 @@ class Avtomobil extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1379,7 +1382,8 @@ class Avtomobil extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1428,7 +1432,8 @@ class Avtomobil extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1477,7 +1482,8 @@ class Avtomobil extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1511,20 +1517,21 @@ class Avtomobil extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "police \n[пэли:с]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "police \n[пэли:с]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1558,16 +1565,16 @@ class Avtomobil extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "traffic lights \n[трэфик лайтс]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "traffic lights \n[трэфик лайтс]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       //////////////////////////////////////////
@@ -1575,7 +1582,8 @@ class Avtomobil extends StatelessWidget {
                                                       ////////////////////////////////////////
 
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1624,7 +1632,8 @@ class Avtomobil extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1673,7 +1682,8 @@ class Avtomobil extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1722,7 +1732,8 @@ class Avtomobil extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1771,7 +1782,8 @@ class Avtomobil extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1820,7 +1832,8 @@ class Avtomobil extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1854,20 +1867,21 @@ class Avtomobil extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "to tow \n[ту тоу]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "to tow \n[ту тоу]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1901,16 +1915,16 @@ class Avtomobil extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "spare part \n[спэа па:т]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "spare part \n[спэа па:т]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ])
                                                           ]),
                                                       /////////////////////////////////////////
