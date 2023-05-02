@@ -7,6 +7,7 @@ class Koshtoshuu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: const Key('koshtoshuu-page'),
       backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       appBar: AppBar(
         centerTitle: true,

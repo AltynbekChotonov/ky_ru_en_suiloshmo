@@ -7,6 +7,9 @@ import 'package:ky_ru_en_suiloshmo/main.dart' as app;
 
 import 'helpers/command/test_command.dart';
 
+// flutter drive --target=test_driver/app.dart
+// flutter drive --target=test_driver/app.dart --dart-define=screenshot=true
+
 void main() async {
   const shouldTakeScreenshot = String.fromEnvironment('screenshot');
   enableFlutterDriverExtension(handler: (command) async {

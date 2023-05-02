@@ -45,11 +45,15 @@ class _LoginPageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: const Key('home-page'),
       backgroundColor: const Color.fromARGB(255, 255, 98, 0),
       appBar: AppBar(
         actions: <Widget>[
           PopupMenuButton<String>(
-            onSelected: (value) => AppLaunch.launchURL(value),
+            key: const Key('popup-socials'),
+            onSelected: (value) {
+              if (value != 'close') AppLaunch.launchURL(value);
+            },
             itemBuilder: (BuildContext context) => <PopupMenuEntry<String>>[
               const PopupMenuItem<String>(
                 value: 'https://www.instagram.com/altynbek_chotonov/',
@@ -70,6 +74,14 @@ class _LoginPageState extends State<HomePage> {
                 child: ListTile(
                   leading: Icon(FontAwesomeIcons.facebook),
                   title: Text('Facebook'),
+                ),
+              ),
+              const PopupMenuItem<String>(
+                key: Key('popup-menu-close'),
+                value: 'close',
+                child: ListTile(
+                  leading: Icon(Icons.close),
+                  title: Text('Close'),
                 ),
               ),
             ],
@@ -108,6 +120,7 @@ class _LoginPageState extends State<HomePage> {
               children: [
                 // Elevated Button
                 ElevatedButton(
+                    key: const Key('home-to-uchurashuu'),
                     onPressed: isActive
                         ? () {
                             {
@@ -130,6 +143,7 @@ class _LoginPageState extends State<HomePage> {
                     )),
                 // Elevated Button
                 ElevatedButton(
+                    key: const Key('home-to-koshtoshuu'),
                     onPressed: isActive
                         ? () {
                             {

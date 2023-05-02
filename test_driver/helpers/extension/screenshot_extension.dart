@@ -10,7 +10,7 @@ extension ScreenshotExtension on FlutterDriver {
 
   Future<void> takeScreenshot(
     String name, {
-    String directory = '../screenshots',
+    String directory = './screenshots',
     Duration timeout = const Duration(seconds: 30),
     bool waitUntilNoTransientCallbacks = true,
   }) async {
