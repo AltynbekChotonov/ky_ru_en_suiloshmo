@@ -1,0 +1,2 @@
+json_key_file("/Users/eldiiar/Desktop/test/ky_ru_en_suiloshmo/android/play-store-credentials.json") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
+package_name("com.altynbek.ky_ru_en_suiloshmo") # e.g. com.krausefx.app

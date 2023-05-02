@@ -45,3 +45,6 @@ app.*.map.json
 
 # screenshots
 /screenshots/
+
+# secret_key
+/android/play-store-credentials.json
