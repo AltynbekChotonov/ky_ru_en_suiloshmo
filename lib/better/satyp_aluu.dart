@@ -1231,7 +1231,8 @@ class SatypAluu extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1280,7 +1281,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1329,7 +1331,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1378,7 +1381,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1427,7 +1431,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1476,7 +1481,8 @@ class SatypAluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1510,20 +1516,21 @@ class SatypAluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "change \n[чейндж]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "change \n[чейндж]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1557,16 +1564,16 @@ class SatypAluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "receipt \n[риси:т]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "receipt \n[риси:т]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       //////////////////////////////////////////
@@ -1574,7 +1581,8 @@ class SatypAluu extends StatelessWidget {
                                                       ////////////////////////////////////////
 
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1623,7 +1631,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1672,7 +1681,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1721,7 +1731,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1770,7 +1781,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1819,7 +1831,8 @@ class SatypAluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1853,20 +1866,21 @@ class SatypAluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "shop assistant \n[шоп эсистэнт]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "shop assistant \n[шоп эсистэнт]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1900,22 +1914,23 @@ class SatypAluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "lift \n[лифт]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "lift \n[лифт]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ])
                                                           ]),
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1964,7 +1979,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2013,7 +2029,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2062,7 +2079,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2111,7 +2129,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2160,7 +2179,8 @@ class SatypAluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2194,20 +2214,21 @@ class SatypAluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "toys \n[тойз]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "toys \n[тойз]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2241,22 +2262,23 @@ class SatypAluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "books \n[букс]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ])
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "books \n[букс]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ])
                                                             ])
                                                           ]),
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2305,7 +2327,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2354,7 +2377,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2403,7 +2427,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2452,7 +2477,8 @@ class SatypAluu extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2501,7 +2527,8 @@ class SatypAluu extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2535,20 +2562,21 @@ class SatypAluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "underwear \n[андэуэа]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "underwear \n[андэуэа]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2582,16 +2610,16 @@ class SatypAluu extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "tobacco \n[тэбэкоу]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ])
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "tobacco \n[тэбэкоу]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ])
                                                             ])
                                                           ])
                                                     ])

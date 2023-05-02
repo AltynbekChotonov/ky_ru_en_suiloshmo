@@ -1233,7 +1233,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1282,7 +1283,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1331,7 +1333,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1380,7 +1383,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1429,7 +1433,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1478,7 +1483,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1512,20 +1518,21 @@ class BaruuchuJerler extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "ruins \n[руинз]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "ruins \n[руинз]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1559,16 +1566,16 @@ class BaruuchuJerler extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "town centre \n[таун сэнтэ]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "town centre \n[таун сэнтэ]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       //////////////////////////////////////////
@@ -1576,7 +1583,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                       ////////////////////////////////////////
 
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1625,7 +1633,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1674,7 +1683,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1723,7 +1733,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1772,7 +1783,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1821,7 +1833,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1855,20 +1868,21 @@ class BaruuchuJerler extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "tower \n[тауэ]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "tower \n[тауэ]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1902,22 +1916,23 @@ class BaruuchuJerler extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "national park \n[нэшэн(э)л па:к]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "national park \n[нэшэн(э)л па:к]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ])
                                                           ]),
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1966,7 +1981,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2015,7 +2031,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2064,7 +2081,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2113,7 +2131,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2162,7 +2181,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2196,20 +2216,21 @@ class BaruuchuJerler extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "temple \n[тэмпл]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "temple \n[тэмпл]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2243,22 +2264,23 @@ class BaruuchuJerler extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "exhibition \n[эксибиш(э)н]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ])
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "exhibition \n[эксибиш(э)н]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ])
                                                             ])
                                                           ]),
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2307,7 +2329,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2356,7 +2379,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2405,7 +2429,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2454,7 +2479,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2503,7 +2529,8 @@ class BaruuchuJerler extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2537,16 +2564,16 @@ class BaruuchuJerler extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "thcatre \n[сиэтэ]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "thcatre \n[сиэтэ]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                     ])

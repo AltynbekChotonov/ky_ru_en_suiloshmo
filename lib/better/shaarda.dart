@@ -1233,7 +1233,8 @@ class Shaar extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1282,7 +1283,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1331,7 +1333,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1380,7 +1383,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1429,7 +1433,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1478,7 +1483,8 @@ class Shaar extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1512,20 +1518,21 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "dead end \n[дэд энд]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "dead end \n[дэд энд]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1559,16 +1566,16 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "to have a walk \n[ту хэв э уо:к]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "to have a walk \n[ту хэв э уо:к]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       //////////////////////////////////////////
@@ -1576,7 +1583,8 @@ class Shaar extends StatelessWidget {
                                                       ////////////////////////////////////////
 
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1625,7 +1633,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1674,7 +1683,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1723,7 +1733,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1772,7 +1783,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1821,7 +1833,8 @@ class Shaar extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1855,20 +1868,21 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "bridge \n[бридж]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "bridge \n[бридж]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1902,22 +1916,23 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "building \n[билдин(г)]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "building \n[билдин(г)]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ])
                                                           ]),
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1966,7 +1981,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2015,7 +2031,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2064,7 +2081,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2113,7 +2131,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2162,7 +2181,8 @@ class Shaar extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2196,20 +2216,21 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "house number \n[хаус намбэ]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "house number \n[хаус намбэ]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2243,22 +2264,23 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "toilet \n[тойлит]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ])
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "toilet \n[тойлит]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ])
                                                             ])
                                                           ]),
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2307,7 +2329,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2356,7 +2379,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2405,7 +2429,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2454,7 +2479,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2503,7 +2529,8 @@ class Shaar extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2537,20 +2564,21 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "supermarket \n[сью:пэма:кит]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "supermarket \n[сью:пэма:кит]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2584,22 +2612,23 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "marketplace \n[ ма:китплэйс]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ])
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "marketplace \n[ ма:китплэйс]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ])
                                                             ])
                                                           ]),
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2648,7 +2677,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2697,7 +2727,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2746,7 +2777,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2795,7 +2827,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2844,7 +2877,8 @@ class Shaar extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2878,20 +2912,21 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "railway station \n[рэйлуэй стэйш(э)н]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "railway station \n[рэйлуэй стэйш(э)н]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2925,20 +2960,21 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "concert hall \n[консэ:т хо:л]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ])
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "concert hall \n[консэ:т хо:л]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ])
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -2987,7 +3023,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3036,7 +3073,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3085,7 +3123,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3134,7 +3173,8 @@ class Shaar extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3183,7 +3223,8 @@ class Shaar extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3217,20 +3258,21 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "pond \n[понд]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "pond \n[понд]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -3264,16 +3306,16 @@ class Shaar extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "park \n[па:к]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ])
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "park \n[па:к]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ])
                                                             ])
                                                           ])
                                                     ])

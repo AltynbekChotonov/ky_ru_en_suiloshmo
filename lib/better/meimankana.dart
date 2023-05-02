@@ -1234,7 +1234,8 @@ class Meimankana extends StatelessWidget {
                                                       /////////////////////////////////////////
                                                       ////////////////////////////////////////
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1283,7 +1284,8 @@ class Meimankana extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1332,7 +1334,8 @@ class Meimankana extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1381,7 +1384,8 @@ class Meimankana extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1430,7 +1434,8 @@ class Meimankana extends StatelessWidget {
                                                             ])
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1479,7 +1484,8 @@ class Meimankana extends StatelessWidget {
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1513,20 +1519,21 @@ class Meimankana extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "cash \n[кэш]",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "cash \n[кэш]",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       Table(
-                                                          border: const TableBorder(
+                                                          border:
+                                                              const TableBorder(
                                                             verticalInside:
                                                                 BorderSide(
                                                                     width: 2,
@@ -1560,16 +1567,16 @@ class Meimankana extends StatelessWidget {
                                                                             fontSize:
                                                                                 15),
                                                                       ))),
-                                                              Column(children: const [
-                                                                Center(
-                                                                    child: Padding(
-                                                                        padding: EdgeInsets.all(10),
-                                                                        child: Text(
-                                                                          "credit card \n[кредит ка:д]\n",
-                                                                          style:
-                                                                              TextStyle(fontSize: 15),
-                                                                        ))),
-                                                              ]),
+                                                              Column(
+                                                                  children: const [
+                                                                    Center(
+                                                                        child: Padding(
+                                                                            padding: EdgeInsets.all(10),
+                                                                            child: Text(
+                                                                              "credit card \n[кредит ка:д]\n",
+                                                                              style: TextStyle(fontSize: 15),
+                                                                            ))),
+                                                                  ]),
                                                             ]),
                                                           ]),
                                                       //////////////////////////////////////////

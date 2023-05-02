@@ -7,6 +7,7 @@ class Uchurashuu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: const Key('uchurashuu-page'),
       backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       appBar: AppBar(
         centerTitle: true,
