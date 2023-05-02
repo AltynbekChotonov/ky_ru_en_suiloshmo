@@ -50,7 +50,7 @@ class Uchurashuu extends StatelessWidget {
                       child: Padding(
                           padding: EdgeInsets.all(10),
                           child: Text(
-                            "Салам!\n Арыбаңыз! Здравстувуйте! ",
+                            "Салам!\n Арыбаңыз! Здравствуйте! ",
                             style: TextStyle(fontSize: 15),
                           ))),
                   Column(

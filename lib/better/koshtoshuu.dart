@@ -170,7 +170,7 @@ class Koshtoshuu extends StatelessWidget {
                       child: Padding(
                           padding: EdgeInsets.all(10),
                           child: Text(
-                            "Ак жол!\n Счастливо! ",
+                            "Жолуңуз ачык болсун!\n Удачи!",
                             style: TextStyle(fontSize: 15),
                           ))),
                   Column(
@@ -200,7 +200,7 @@ class Koshtoshuu extends StatelessWidget {
                       child: Padding(
                           padding: EdgeInsets.all(10),
                           child: Text(
-                            "Келдемек бар, кет демек жок!\n Мне пора идти!",
+                            " Мен кетишим керек!\n Я должен идти!",
                             style: TextStyle(fontSize: 15),
                           ))),
                   Column(
@@ -209,7 +209,7 @@ class Koshtoshuu extends StatelessWidget {
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
-                                "I have to go!\n [Ай хэв ту гоу!]",
+                                "I have to go!\n [ай хэв ту гоу!]",
                                 style: TextStyle(fontSize: 15),
                               ))),
                     ],
