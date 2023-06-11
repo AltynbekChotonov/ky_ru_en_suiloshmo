@@ -44,9 +44,9 @@ class Kairyluu extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -54,7 +54,7 @@ class Kairyluu extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -74,9 +74,9 @@ class Kairyluu extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -84,7 +84,7 @@ class Kairyluu extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -104,9 +104,9 @@ class Kairyluu extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -114,7 +114,7 @@ class Kairyluu extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -134,9 +134,9 @@ class Kairyluu extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -144,7 +144,7 @@ class Kairyluu extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -164,9 +164,9 @@ class Kairyluu extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -174,7 +174,7 @@ class Kairyluu extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -194,9 +194,9 @@ class Kairyluu extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -204,7 +204,7 @@ class Kairyluu extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -234,9 +234,9 @@ class Kairyluu extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -244,7 +244,7 @@ class Kairyluu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -264,9 +264,9 @@ class Kairyluu extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -274,7 +274,7 @@ class Kairyluu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -294,9 +294,9 @@ class Kairyluu extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -304,7 +304,7 @@ class Kairyluu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -324,9 +324,9 @@ class Kairyluu extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -334,7 +334,7 @@ class Kairyluu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -354,9 +354,9 @@ class Kairyluu extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -364,7 +364,7 @@ class Kairyluu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -384,9 +384,9 @@ class Kairyluu extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -394,7 +394,7 @@ class Kairyluu extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -426,9 +426,9 @@ class Kairyluu extends StatelessWidget {
                       left: BorderSide(width: 2, color: Colors.black),
                       right: BorderSide(width: 2, color: Colors.black),
                     ),
-                    children: [
+                    children: const [
                       TableRow(children: [
-                        const Center(
+                        Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -436,7 +436,7 @@ class Kairyluu extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: const [
+                          children: [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -456,9 +456,9 @@ class Kairyluu extends StatelessWidget {
                       left: BorderSide(width: 2, color: Colors.black),
                       right: BorderSide(width: 2, color: Colors.black),
                     ),
-                    children: [
+                    children: const [
                       TableRow(children: [
-                        const Center(
+                        Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -466,7 +466,7 @@ class Kairyluu extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: const [
+                          children: [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -486,9 +486,9 @@ class Kairyluu extends StatelessWidget {
                       left: BorderSide(width: 2, color: Colors.black),
                       right: BorderSide(width: 2, color: Colors.black),
                     ),
-                    children: [
+                    children: const [
                       TableRow(children: [
-                        const Center(
+                        Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -496,7 +496,7 @@ class Kairyluu extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: const [
+                          children: [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -516,9 +516,9 @@ class Kairyluu extends StatelessWidget {
                       left: BorderSide(width: 2, color: Colors.black),
                       right: BorderSide(width: 2, color: Colors.black),
                     ),
-                    children: [
+                    children: const [
                       TableRow(children: [
-                        const Center(
+                        Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -526,7 +526,7 @@ class Kairyluu extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: const [
+                          children: [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -546,9 +546,9 @@ class Kairyluu extends StatelessWidget {
                       left: BorderSide(width: 2, color: Colors.black),
                       right: BorderSide(width: 2, color: Colors.black),
                     ),
-                    children: [
+                    children: const [
                       TableRow(children: [
-                        const Center(
+                        Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
@@ -556,7 +556,7 @@ class Kairyluu extends StatelessWidget {
                                   style: TextStyle(fontSize: 15),
                                 ))),
                         Column(
-                          children: const [
+                          children: [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),
@@ -576,16 +576,16 @@ class Kairyluu extends StatelessWidget {
                       left: BorderSide(width: 2, color: Colors.black),
                       right: BorderSide(width: 2, color: Colors.black),
                     ),
-                    children: [
+                    children: const [
                       TableRow(children: [
-                        const Center(
+                        Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Text(
                                   "Чын дилим менен. \n С удовольствием. ",
                                   style: TextStyle(fontSize: 15),
                                 ))),
-                        Column(children: const [
+                        Column(children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -617,9 +617,9 @@ class Kairyluu extends StatelessWidget {
                         left: BorderSide(width: 2, color: Colors.black),
                         right: BorderSide(width: 2, color: Colors.black),
                       ),
-                      children: [
+                      children: const [
                         TableRow(children: [
-                          const Center(
+                          Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -627,7 +627,7 @@ class Kairyluu extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: const [
+                            children: [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -648,9 +648,9 @@ class Kairyluu extends StatelessWidget {
                         left: BorderSide(width: 2, color: Colors.black),
                         right: BorderSide(width: 2, color: Colors.black),
                       ),
-                      children: [
+                      children: const [
                         TableRow(children: [
-                          const Center(
+                          Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -658,7 +658,7 @@ class Kairyluu extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: const [
+                            children: [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -679,9 +679,9 @@ class Kairyluu extends StatelessWidget {
                         left: BorderSide(width: 2, color: Colors.black),
                         right: BorderSide(width: 2, color: Colors.black),
                       ),
-                      children: [
+                      children: const [
                         TableRow(children: [
-                          const Center(
+                          Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -689,7 +689,7 @@ class Kairyluu extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: const [
+                            children: [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -710,9 +710,9 @@ class Kairyluu extends StatelessWidget {
                         left: BorderSide(width: 2, color: Colors.black),
                         right: BorderSide(width: 2, color: Colors.black),
                       ),
-                      children: [
+                      children: const [
                         TableRow(children: [
-                          const Center(
+                          Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -720,7 +720,7 @@ class Kairyluu extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: const [
+                            children: [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -741,9 +741,9 @@ class Kairyluu extends StatelessWidget {
                         left: BorderSide(width: 2, color: Colors.black),
                         right: BorderSide(width: 2, color: Colors.black),
                       ),
-                      children: [
+                      children: const [
                         TableRow(children: [
-                          const Center(
+                          Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
@@ -751,7 +751,7 @@ class Kairyluu extends StatelessWidget {
                                     style: TextStyle(fontSize: 15),
                                   ))),
                           Column(
-                            children: const [
+                            children: [
                               Center(
                                   child: Padding(
                                       padding: EdgeInsets.all(10),
@@ -772,16 +772,16 @@ class Kairyluu extends StatelessWidget {
                         left: BorderSide(width: 2, color: Colors.black),
                         right: BorderSide(width: 2, color: Colors.black),
                       ),
-                      children: [
+                      children: const [
                         TableRow(children: [
-                          const Center(
+                          Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Text(
                                     "Бул мүмкүн эмес. \n Это невозможно. ",
                                     style: TextStyle(fontSize: 15),
                                   ))),
-                          Column(children: const [
+                          Column(children: [
                             Center(
                                 child: Padding(
                                     padding: EdgeInsets.all(10),

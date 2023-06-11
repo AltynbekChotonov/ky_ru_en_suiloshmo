@@ -44,9 +44,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -54,7 +54,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -74,9 +74,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -84,7 +84,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -104,9 +104,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -114,7 +114,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -134,9 +134,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -144,7 +144,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -164,9 +164,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -174,7 +174,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -194,9 +194,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -204,7 +204,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -226,9 +226,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -236,7 +236,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -256,9 +256,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -266,7 +266,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -286,9 +286,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -296,7 +296,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -316,9 +316,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -326,7 +326,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -346,9 +346,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -356,7 +356,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -376,9 +376,9 @@ class Tustor extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -386,7 +386,7 @@ class Tustor extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -409,7 +409,7 @@ class Tustor extends StatelessWidget {
                 'assets/images/logo photo.png',
                 height: 50,
               ),
-              Column(children: const [
+              const Column(children: [
                 Text(
                   " 2023-жыл. ",
                   style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold),

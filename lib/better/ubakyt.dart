@@ -44,9 +44,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -54,7 +54,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -74,9 +74,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -84,7 +84,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -104,9 +104,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -114,7 +114,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -134,9 +134,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -144,7 +144,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -164,9 +164,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -174,7 +174,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -194,9 +194,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -204,7 +204,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -226,9 +226,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -236,7 +236,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -256,9 +256,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -266,7 +266,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -286,9 +286,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -296,7 +296,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -316,9 +316,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -326,7 +326,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -346,9 +346,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -356,7 +356,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -376,9 +376,9 @@ class Ubakyt extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -386,7 +386,7 @@ class Ubakyt extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -417,9 +417,9 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -427,7 +427,7 @@ class Ubakyt extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -447,9 +447,9 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -457,7 +457,7 @@ class Ubakyt extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -477,9 +477,9 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -487,7 +487,7 @@ class Ubakyt extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -507,9 +507,9 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -517,7 +517,7 @@ class Ubakyt extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -537,9 +537,9 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -547,7 +547,7 @@ class Ubakyt extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -567,16 +567,16 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
                                 "Ишемби \n Суббота ",
                                 style: TextStyle(fontSize: 15),
                               ))),
-                      Column(children: const [
+                      Column(children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -595,16 +595,16 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
                                 "Жекшемби \n Воскресение ",
                                 style: TextStyle(fontSize: 15),
                               ))),
-                      Column(children: const [
+                      Column(children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -629,9 +629,9 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -639,7 +639,7 @@ class Ubakyt extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -659,9 +659,9 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -669,7 +669,7 @@ class Ubakyt extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -689,9 +689,9 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -699,7 +699,7 @@ class Ubakyt extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -719,9 +719,9 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -729,7 +729,7 @@ class Ubakyt extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -749,9 +749,9 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -759,7 +759,7 @@ class Ubakyt extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -779,16 +779,16 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
                                 "күндүз \n днём ",
                                 style: TextStyle(fontSize: 15),
                               ))),
-                      Column(children: const [
+                      Column(children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -807,16 +807,16 @@ class Ubakyt extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
                                 "кечинде \n вечером ",
                                 style: TextStyle(fontSize: 15),
                               ))),
-                      Column(children: const [
+                      Column(children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),

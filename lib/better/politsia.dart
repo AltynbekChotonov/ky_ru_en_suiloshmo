@@ -45,9 +45,9 @@ class Politsia extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -55,7 +55,7 @@ class Politsia extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -75,9 +75,9 @@ class Politsia extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -85,7 +85,7 @@ class Politsia extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -135,9 +135,9 @@ class Politsia extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -145,7 +145,7 @@ class Politsia extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -165,9 +165,9 @@ class Politsia extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -175,7 +175,7 @@ class Politsia extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -195,9 +195,9 @@ class Politsia extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -205,7 +205,7 @@ class Politsia extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -357,9 +357,9 @@ class Politsia extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -367,7 +367,7 @@ class Politsia extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -390,9 +390,9 @@ class Politsia extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -400,7 +400,7 @@ class Politsia extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -423,9 +423,9 @@ class Politsia extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -433,7 +433,7 @@ class Politsia extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -456,9 +456,9 @@ class Politsia extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -466,7 +466,7 @@ class Politsia extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -489,9 +489,9 @@ class Politsia extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -499,7 +499,7 @@ class Politsia extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -522,9 +522,9 @@ class Politsia extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -532,7 +532,7 @@ class Politsia extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -555,9 +555,9 @@ class Politsia extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -565,7 +565,7 @@ class Politsia extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -750,9 +750,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -762,7 +762,7 @@ class Politsia extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -795,9 +795,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -807,7 +807,7 @@ class Politsia extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -841,9 +841,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -853,7 +853,7 @@ class Politsia extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -886,9 +886,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -898,7 +898,7 @@ class Politsia extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -931,9 +931,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -943,7 +943,7 @@ class Politsia extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -976,9 +976,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -987,7 +987,7 @@ class Politsia extends StatelessWidget {
                                                           style: TextStyle(
                                                               fontSize: 15),
                                                         ))),
-                                                Column(children: const [
+                                                Column(children: [
                                                   Center(
                                                       child: Padding(
                                                           padding:
@@ -1019,10 +1019,10 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(
                                                 children: [
-                                                  const Center(
+                                                  Center(
                                                       child: Padding(
                                                           padding:
                                                               EdgeInsets.all(
@@ -1032,7 +1032,7 @@ class Politsia extends StatelessWidget {
                                                             style: TextStyle(
                                                                 fontSize: 15),
                                                           ))),
-                                                  Column(children: const [
+                                                  Column(children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1066,9 +1066,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1078,7 +1078,7 @@ class Politsia extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1111,9 +1111,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1123,7 +1123,7 @@ class Politsia extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1157,9 +1157,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1169,7 +1169,7 @@ class Politsia extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1202,9 +1202,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1214,7 +1214,7 @@ class Politsia extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1247,9 +1247,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1259,7 +1259,7 @@ class Politsia extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1292,9 +1292,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1303,7 +1303,7 @@ class Politsia extends StatelessWidget {
                                                           style: TextStyle(
                                                               fontSize: 15),
                                                         ))),
-                                                Column(children: const [
+                                                Column(children: [
                                                   Center(
                                                       child: Padding(
                                                           padding:
@@ -1335,9 +1335,9 @@ class Politsia extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -1346,7 +1346,7 @@ class Politsia extends StatelessWidget {
                                                           style: TextStyle(
                                                               fontSize: 15),
                                                         ))),
-                                                Column(children: const [
+                                                Column(children: [
                                                   Center(
                                                       child: Padding(
                                                           padding:

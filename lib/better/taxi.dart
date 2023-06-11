@@ -44,9 +44,9 @@ class Taxi extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -54,7 +54,7 @@ class Taxi extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -74,9 +74,9 @@ class Taxi extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -84,7 +84,7 @@ class Taxi extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -104,9 +104,9 @@ class Taxi extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -114,7 +114,7 @@ class Taxi extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -134,9 +134,9 @@ class Taxi extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -144,7 +144,7 @@ class Taxi extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -164,9 +164,9 @@ class Taxi extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -174,7 +174,7 @@ class Taxi extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -194,9 +194,9 @@ class Taxi extends StatelessWidget {
                   left: BorderSide(width: 2, color: Colors.black),
                   right: BorderSide(width: 2, color: Colors.black),
                 ),
-                children: [
+                children: const [
                   TableRow(children: [
-                    const Center(
+                    Center(
                         child: Padding(
                             padding: EdgeInsets.all(10),
                             child: Text(
@@ -204,7 +204,7 @@ class Taxi extends StatelessWidget {
                               style: TextStyle(fontSize: 15),
                             ))),
                     Column(
-                      children: const [
+                      children: [
                         Center(
                             child: Padding(
                                 padding: EdgeInsets.all(10),
@@ -224,19 +224,19 @@ class Taxi extends StatelessWidget {
               indent: 5,
               endIndent: 5,
             ),
-            Column(children: [
-              const Text(
+            const Column(children: [
+              Text(
                 "Мага такси керек.\n Мне нужно такси.\n I need a taxi.   \n   [ ай ни:д э тэкси.] \n",
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
               ),
-              const Divider(
+              Divider(
                 color: Color.fromARGB(255, 0, 0, 0),
                 height: 0,
                 thickness: 2,
                 indent: 5,
                 endIndent: 5,
               ),
-              const Divider(
+              Divider(
                 color: Color.fromARGB(255, 0, 0, 0),
                 height: 0,
                 thickness: 2,
@@ -244,18 +244,18 @@ class Taxi extends StatelessWidget {
                 endIndent: 5,
               ),
               Column(children: [
-                const Text(
+                Text(
                   "Бул дарекке жеткирип коюңузчу. \n Пожалуйста,отвезите меня по этому адресу.\n This address,please .  \n   [ зис эдрэс пли:з.] \n",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                const Divider(
+                Divider(
                   color: Color.fromARGB(255, 0, 0, 0),
                   height: 0,
                   thickness: 2,
                   indent: 5,
                   endIndent: 5,
                 ),
-                const Divider(
+                Divider(
                   color: Color.fromARGB(255, 0, 0, 0),
                   height: 0,
                   thickness: 2,
@@ -263,18 +263,18 @@ class Taxi extends StatelessWidget {
                   endIndent: 5,
                 ),
                 Column(children: [
-                  const Text(
+                  Text(
                     "Бул жерге токтоңузчу.\n Остановитесь здесь,пожалуйста.\n I m not well. Stop here,please. \n [ стоп хиэ пли:з. ]\n ",
                     style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
-                  const Divider(
+                  Divider(
                     color: Color.fromARGB(255, 0, 0, 0),
                     height: 0,
                     thickness: 2,
                     indent: 5,
                     endIndent: 5,
                   ),
-                  const Divider(
+                  Divider(
                     color: Color.fromARGB(255, 0, 0, 0),
                     height: 0,
                     thickness: 2,
@@ -282,26 +282,26 @@ class Taxi extends StatelessWidget {
                     endIndent: 5,
                   ),
                   Column(children: [
-                    const Text(
+                    Text(
                       "Бул жерге күтүп туруңузчу. \n Подождите здесь,пожалуйста.\n Wait here,please.\n [ уэйт хиэ пли:з.]\n ",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                     ),
-                    const Divider(
+                    Divider(
                       color: Color.fromARGB(255, 0, 0, 0),
                       height: 0,
                       thickness: 2,
                       indent: 5,
                       endIndent: 5,
                     ),
-                    const Divider(
+                    Divider(
                       color: Color.fromARGB(255, 0, 0, 0),
                       height: 0,
                       thickness: 2,
                       indent: 5,
                       endIndent: 5,
                     ),
-                    const Divider(
+                    Divider(
                       color: Color.fromARGB(255, 0, 0, 0),
                       height: 0,
                       thickness: 2,
@@ -310,26 +310,26 @@ class Taxi extends StatelessWidget {
                     ),
                     Column(
                       children: [
-                        const Text(
+                        Text(
                           "Менден канча аласыз? Канча төлөйм?.\n Сколько с меня?\n  How much must I pay? \n [ хау мач маст ай пэй? ]\n ",
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.bold),
                         ),
-                        const Divider(
+                        Divider(
                           color: Color.fromARGB(255, 0, 0, 0),
                           height: 0,
                           thickness: 2,
                           indent: 5,
                           endIndent: 5,
                         ),
-                        const Divider(
+                        Divider(
                           color: Color.fromARGB(255, 0, 0, 0),
                           height: 0,
                           thickness: 2,
                           indent: 5,
                           endIndent: 5,
                         ),
-                        Column(children: const [
+                        Column(children: [
                           Text(
                             "Мага төлөм кагазын бериңиз. \n Дайте мне, пожалуйста, квитанцию. \n Give me the receipt,please. \n [ гив ми зэ риси:т пли:з]\n ",
                             style: TextStyle(

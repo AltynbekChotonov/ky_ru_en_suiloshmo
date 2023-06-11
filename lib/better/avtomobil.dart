@@ -45,9 +45,9 @@ class Avtomobil extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -55,7 +55,7 @@ class Avtomobil extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -75,9 +75,9 @@ class Avtomobil extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -85,7 +85,7 @@ class Avtomobil extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -135,9 +135,9 @@ class Avtomobil extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -145,7 +145,7 @@ class Avtomobil extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -165,9 +165,9 @@ class Avtomobil extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -175,7 +175,7 @@ class Avtomobil extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -195,9 +195,9 @@ class Avtomobil extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -205,7 +205,7 @@ class Avtomobil extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -357,9 +357,9 @@ class Avtomobil extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -367,7 +367,7 @@ class Avtomobil extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -390,9 +390,9 @@ class Avtomobil extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -400,7 +400,7 @@ class Avtomobil extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -433,8 +433,8 @@ class Avtomobil extends StatelessWidget {
                                             style: GoogleFonts.prompt(
                                                 fontSize: 15),
                                           ))),
-                                  Column(
-                                    children: const [
+                                  const Column(
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -457,9 +457,9 @@ class Avtomobil extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -467,7 +467,7 @@ class Avtomobil extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -490,9 +490,9 @@ class Avtomobil extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -500,7 +500,7 @@ class Avtomobil extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -523,9 +523,9 @@ class Avtomobil extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -533,7 +533,7 @@ class Avtomobil extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -556,9 +556,9 @@ class Avtomobil extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -566,7 +566,7 @@ class Avtomobil extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -754,9 +754,9 @@ class Avtomobil extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -766,7 +766,7 @@ class Avtomobil extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -799,9 +799,9 @@ class Avtomobil extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -811,7 +811,7 @@ class Avtomobil extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -844,9 +844,9 @@ class Avtomobil extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -856,7 +856,7 @@ class Avtomobil extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -889,9 +889,9 @@ class Avtomobil extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -901,7 +901,7 @@ class Avtomobil extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -934,9 +934,9 @@ class Avtomobil extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -946,7 +946,7 @@ class Avtomobil extends StatelessWidget {
                                                               fontSize: 15),
                                                         ))),
                                                 Column(
-                                                  children: const [
+                                                  children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -979,9 +979,9 @@ class Avtomobil extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(children: [
-                                                const Center(
+                                                Center(
                                                     child: Padding(
                                                         padding:
                                                             EdgeInsets.all(10),
@@ -990,7 +990,7 @@ class Avtomobil extends StatelessWidget {
                                                           style: TextStyle(
                                                               fontSize: 15),
                                                         ))),
-                                                Column(children: const [
+                                                Column(children: [
                                                   Center(
                                                       child: Padding(
                                                           padding:
@@ -1022,10 +1022,10 @@ class Avtomobil extends StatelessWidget {
                                                   width: 2,
                                                   color: Colors.black),
                                             ),
-                                            children: [
+                                            children: const [
                                               TableRow(
                                                 children: [
-                                                  const Center(
+                                                  Center(
                                                       child: Padding(
                                                           padding:
                                                               EdgeInsets.all(
@@ -1035,7 +1035,7 @@ class Avtomobil extends StatelessWidget {
                                                             style: TextStyle(
                                                                 fontSize: 15),
                                                           ))),
-                                                  Column(children: const [
+                                                  Column(children: [
                                                     Center(
                                                         child: Padding(
                                                             padding:
@@ -1256,9 +1256,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1268,7 +1268,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: const [
+                                                                children: [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1306,9 +1306,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1318,7 +1318,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: const [
+                                                                children: [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1356,9 +1356,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1368,7 +1368,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: const [
+                                                                children: [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1406,9 +1406,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1418,7 +1418,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: const [
+                                                                children: [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1456,9 +1456,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1468,7 +1468,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: const [
+                                                                children: [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1506,9 +1506,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1518,7 +1518,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                  children: const [
+                                                                  children: [
                                                                     Center(
                                                                         child: Padding(
                                                                             padding: EdgeInsets.all(10),
@@ -1554,9 +1554,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1566,7 +1566,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                  children: const [
+                                                                  children: [
                                                                     Center(
                                                                         child: Padding(
                                                                             padding: EdgeInsets.all(10),
@@ -1606,9 +1606,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1618,7 +1618,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: const [
+                                                                children: [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1656,9 +1656,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1668,7 +1668,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: const [
+                                                                children: [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1706,9 +1706,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1718,7 +1718,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: const [
+                                                                children: [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1756,9 +1756,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1768,7 +1768,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: const [
+                                                                children: [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1806,9 +1806,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1818,7 +1818,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                children: const [
+                                                                children: [
                                                                   Center(
                                                                       child: Padding(
                                                                           padding: EdgeInsets.all(10),
@@ -1856,9 +1856,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1868,7 +1868,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                  children: const [
+                                                                  children: [
                                                                     Center(
                                                                         child: Padding(
                                                                             padding: EdgeInsets.all(10),
@@ -1904,9 +1904,9 @@ class Avtomobil extends StatelessWidget {
                                                                 color: Colors
                                                                     .black),
                                                           ),
-                                                          children: [
+                                                          children: const [
                                                             TableRow(children: [
-                                                              const Center(
+                                                              Center(
                                                                   child: Padding(
                                                                       padding: EdgeInsets.all(10),
                                                                       child: Text(
@@ -1916,7 +1916,7 @@ class Avtomobil extends StatelessWidget {
                                                                                 15),
                                                                       ))),
                                                               Column(
-                                                                  children: const [
+                                                                  children: [
                                                                     Center(
                                                                         child: Padding(
                                                                             padding: EdgeInsets.all(10),
