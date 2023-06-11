@@ -44,9 +44,9 @@ class Otunuch extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -54,7 +54,7 @@ class Otunuch extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -74,9 +74,9 @@ class Otunuch extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -84,7 +84,7 @@ class Otunuch extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -104,9 +104,9 @@ class Otunuch extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -114,7 +114,7 @@ class Otunuch extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -134,9 +134,9 @@ class Otunuch extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -144,7 +144,7 @@ class Otunuch extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -164,9 +164,9 @@ class Otunuch extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -174,7 +174,7 @@ class Otunuch extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -194,9 +194,9 @@ class Otunuch extends StatelessWidget {
                     left: BorderSide(width: 2, color: Colors.black),
                     right: BorderSide(width: 2, color: Colors.black),
                   ),
-                  children: [
+                  children: const [
                     TableRow(children: [
-                      const Center(
+                      Center(
                           child: Padding(
                               padding: EdgeInsets.all(10),
                               child: Text(
@@ -204,7 +204,7 @@ class Otunuch extends StatelessWidget {
                                 style: TextStyle(fontSize: 15),
                               ))),
                       Column(
-                        children: const [
+                        children: [
                           Center(
                               child: Padding(
                                   padding: EdgeInsets.all(10),
@@ -356,9 +356,9 @@ class Otunuch extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -366,7 +366,7 @@ class Otunuch extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -389,9 +389,9 @@ class Otunuch extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -399,7 +399,7 @@ class Otunuch extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -422,9 +422,9 @@ class Otunuch extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -432,7 +432,7 @@ class Otunuch extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -455,9 +455,9 @@ class Otunuch extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -465,7 +465,7 @@ class Otunuch extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -488,9 +488,9 @@ class Otunuch extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -498,7 +498,7 @@ class Otunuch extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -521,9 +521,9 @@ class Otunuch extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -531,7 +531,7 @@ class Otunuch extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -554,9 +554,9 @@ class Otunuch extends StatelessWidget {
                                 right:
                                     BorderSide(width: 2, color: Colors.black),
                               ),
-                              children: [
+                              children: const [
                                 TableRow(children: [
-                                  const Center(
+                                  Center(
                                       child: Padding(
                                           padding: EdgeInsets.all(10),
                                           child: Text(
@@ -564,7 +564,7 @@ class Otunuch extends StatelessWidget {
                                             style: TextStyle(fontSize: 15),
                                           ))),
                                   Column(
-                                    children: const [
+                                    children: [
                                       Center(
                                           child: Padding(
                                               padding: EdgeInsets.all(10),
@@ -585,20 +585,20 @@ class Otunuch extends StatelessWidget {
                             indent: 5,
                             endIndent: 5,
                           ),
-                          Column(children: [
-                            const Text(
+                          const Column(children: [
+                            Text(
                               " Мага жардам берип коюңузчу. \n Помогите мне, пожалуйста. \n Help me, please. \n [хелп ми пли:з ]\n ",
                               style: TextStyle(
                                   fontSize: 15, fontWeight: FontWeight.bold),
                             ),
-                            const Divider(
+                            Divider(
                               color: Color.fromARGB(255, 0, 0, 0),
                               height: 0,
                               thickness: 2,
                               indent: 5,
                               endIndent: 5,
                             ),
-                            const Divider(
+                            Divider(
                               color: Color.fromARGB(255, 0, 0, 0),
                               height: 0,
                               thickness: 2,
@@ -606,19 +606,19 @@ class Otunuch extends StatelessWidget {
                               endIndent: 5,
                             ),
                             Column(children: [
-                              const Text(
+                              Text(
                                 "Мага берип коюңузчу суранам. \n Дайте мне, пожалуйста. \n Give me please...  \n [ гив ми пли:з]\n ",
                                 style: TextStyle(
                                     fontSize: 15, fontWeight: FontWeight.bold),
                               ),
-                              const Divider(
+                              Divider(
                                 color: Color.fromARGB(255, 0, 0, 0),
                                 height: 0,
                                 thickness: 2,
                                 indent: 5,
                                 endIndent: 5,
                               ),
-                              const Divider(
+                              Divider(
                                 color: Color.fromARGB(255, 0, 0, 0),
                                 height: 0,
                                 thickness: 2,
@@ -626,20 +626,20 @@ class Otunuch extends StatelessWidget {
                                 endIndent: 5,
                               ),
                               Column(children: [
-                                const Text(
+                                Text(
                                   "Алып келип бериңизчи... \n Принесите мне, пожалуйста. \n Bring me, please... \n [ брин(г) ми пли:з] \n",
                                   style: TextStyle(
                                       fontSize: 15,
                                       fontWeight: FontWeight.bold),
                                 ),
-                                const Divider(
+                                Divider(
                                   color: Color.fromARGB(255, 0, 0, 0),
                                   height: 0,
                                   thickness: 2,
                                   indent: 5,
                                   endIndent: 5,
                                 ),
-                                const Divider(
+                                Divider(
                                   color: Color.fromARGB(255, 0, 0, 0),
                                   height: 0,
                                   thickness: 2,
@@ -647,27 +647,27 @@ class Otunuch extends StatelessWidget {
                                   endIndent: 5,
                                 ),
                                 Column(children: [
-                                  const Text(
+                                  Text(
                                     "Мага көрсөтүп коюңузчу... \n Покажите мне, пожалуйста... \n Show me, please ... \n [ шоу ми пли:з] \n",
                                     style: TextStyle(
                                         fontSize: 15,
                                         fontWeight: FontWeight.bold),
                                   ),
-                                  const Divider(
+                                  Divider(
                                     color: Color.fromARGB(255, 0, 0, 0),
                                     height: 0,
                                     thickness: 2,
                                     indent: 5,
                                     endIndent: 5,
                                   ),
-                                  const Divider(
+                                  Divider(
                                     color: Color.fromARGB(255, 0, 0, 0),
                                     height: 0,
                                     thickness: 2,
                                     indent: 5,
                                     endIndent: 5,
                                   ),
-                                  const Divider(
+                                  Divider(
                                     color: Color.fromARGB(255, 0, 0, 0),
                                     height: 0,
                                     thickness: 2,
@@ -675,20 +675,20 @@ class Otunuch extends StatelessWidget {
                                     endIndent: 5,
                                   ),
                                   Column(children: [
-                                    const Text(
+                                    Text(
                                       "Бул жерде эң жакын даараткана кайда? \n Где тут ближайший туалет? \n Where is the nearest toilet here? \n [ уэа(р) из зэ ниэрэст тойлит хиэ? ]\n ",
                                       style: TextStyle(
                                           fontSize: 15,
                                           fontWeight: FontWeight.bold),
                                     ),
-                                    const Divider(
+                                    Divider(
                                       color: Color.fromARGB(255, 0, 0, 0),
                                       height: 0,
                                       thickness: 2,
                                       indent: 5,
                                       endIndent: 5,
                                     ),
-                                    const Divider(
+                                    Divider(
                                       color: Color.fromARGB(255, 0, 0, 0),
                                       height: 0,
                                       thickness: 2,
@@ -696,27 +696,27 @@ class Otunuch extends StatelessWidget {
                                       endIndent: 5,
                                     ),
                                     Column(children: [
-                                      const Text(
+                                      Text(
                                         "Мен адашып кеттим. \n Я заблудился. \n I have lost my way. \n [ ай хэв лост май уэй ]\n ",
                                         style: TextStyle(
                                             fontSize: 15,
                                             fontWeight: FontWeight.bold),
                                       ),
-                                      const Divider(
+                                      Divider(
                                         color: Color.fromARGB(255, 0, 0, 0),
                                         height: 0,
                                         thickness: 2,
                                         indent: 5,
                                         endIndent: 5,
                                       ),
-                                      const Divider(
+                                      Divider(
                                         color: Color.fromARGB(255, 0, 0, 0),
                                         height: 0,
                                         thickness: 2,
                                         indent: 5,
                                         endIndent: 5,
                                       ),
-                                      Column(children: const [
+                                      Column(children: [
                                         Text(
                                           "Мен билбейм. \n Я не знаю. \n I don't know. \n [ ай донут ноу ]\n ",
                                           style: TextStyle(
